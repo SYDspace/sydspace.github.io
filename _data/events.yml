@@ -636,6 +636,9 @@
         image: profiles/GarethSime.jpeg
       
       title: "Circuit Breakers with Resilience4J"
+      description: >
+        This short talk is an introduction to Circuit Breakers. We'll use Resilience4J to add a circuit breaker to an
+        example Spring Boot + Kotlin application and then watch its behaviour as errors are encountered.
 
     - speaker:
         name: Evgeny Trushin
@@ -644,4 +647,6 @@
         image: profiles/evgeny-trushin.jpeg
       
       title: "Learning Kotlin: A Trial-and-Error Approach"
-      
+      description: >
+        The goal of this talk is to present the 7 best bug fixing strategies as well as 23 coding errors that 
+        you may come across while mastering the Kotlin language.
