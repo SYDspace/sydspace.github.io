@@ -650,3 +650,16 @@
       description: >
         The goal of this talk is to present the 7 best bug fixing strategies as well as 23 coding errors that 
         you may come across while mastering the Kotlin language.
+
+- id: meetup-november-2018
+  title: "Meetup - November 2018"
+  url: https://www.meetup.com/sydney-kotlin/events/255794817/
+  date: 2018-11-28T18:00:00+11
+  description: >
+    Last meetup of 2018, can you believe it? This month we welcome a new host and sponsor, Outware Mobile, and we 
+    should have a great programme of talks lined up to send you into the season of office parties.
+
+  sponsor:    
+    name: Outware Mobile   
+    url: http://www.outware.com.au
+    image: sponsors/outware.png
