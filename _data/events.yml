@@ -650,6 +650,10 @@
       description: >
         The goal of this talk is to present the 7 best bug fixing strategies as well as 23 coding errors that 
         you may come across while mastering the Kotlin language.
+      
+      links:
+        - title: Slides
+          url: /materials/2018-10-24-1/learning-kotlin.pdf
 
 - id: meetup-november-2018
   title: "Meetup - November 2018"
