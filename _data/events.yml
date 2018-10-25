@@ -654,6 +654,9 @@
       links:
         - title: Slides
           url: /materials/2018-10-24-1/learning-kotlin.pdf
+        
+        - title: Source
+          url: https://github.com/evgeny-trushin/Kotlin-Script_CLI_Presentation_Trial-And-Error/
 
 - id: meetup-november-2018
   title: "Meetup - November 2018"
@@ -662,6 +665,11 @@
   description: >
     Last meetup of 2018, can you believe it? This month we welcome a new host and sponsor, Outware Mobile, and we 
     should have a great programme of talks lined up to send you into the season of office parties.
+
+  location:
+    name: Outware Mobile
+    address: Level 23, 680 George Street, Sydney
+    url: https://goo.gl/maps/xG2AoZQX8zK2
 
   sponsor:    
     name: Outware Mobile   
