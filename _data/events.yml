@@ -675,3 +675,26 @@
     name: Outware Part of Arq Group
     url: http://www.outware.com.au
     image: sponsors/outware.png
+
+  talks:
+    - speaker:
+        name: Christian Rolf
+        title: Atlassian
+        url: https://www.linkedin.com/in/christian-rolf-21714825/
+        image: profiles/christian-rolf.jpeg
+      
+      title: "The Price of Readability"
+      description: >
+        This talk is about the performance of Kotlin collections.
+    
+    - speaker:
+        name: Shinoo Goyal
+        title: Arq Group
+        url: https://www.linkedin.com/in/shinoo-goyal-7453b513/
+        image: profiles/shinoo-goyal.jpg
+      
+      title: "Exploring Kotlin Functions - Let’s have some fun()"
+      description: >
+        The goal of this talk is learning about Kotlin functions and how they differ from the ones in Java. 
+        The discussion is around variety of scopes offered by Kotlin functions and variations on how they can 
+        be invoked. In addition, we will also take a look at lambdas and reified type parameters.
