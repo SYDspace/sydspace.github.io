@@ -639,6 +639,13 @@
       description: >
         This short talk is an introduction to Circuit Breakers. We'll use Resilience4J to add a circuit breaker to an
         example Spring Boot + Kotlin application and then watch its behaviour as errors are encountered.
+      
+      links:
+        - title: Slides
+          url: /materials/2018-10-24-2/circuit-breakers.pdf
+        
+        - title: Source
+          url: https://bitbucket.org/garethsime/sydkotlin-circuit-breakers
 
     - speaker:
         name: Evgeny Trushin
@@ -683,9 +690,11 @@
         url: https://www.linkedin.com/in/christian-rolf-21714825/
         image: profiles/christian-rolf.jpeg
       
-      title: "The Price of Readability"
+      title: "Kotlin Collections vs Java Streams"
       description: >
-        This talk is about the performance of Kotlin collections.
+        The Kotlin Collections API is great for processing complex data structures with readable code. But 
+        what’s the performance impact compared to using Java Streams? This talk will cover how to avoid the 
+        obvious pitfalls and when to chose readability over performance.
     
     - speaker:
         name: Shinoo Goyal
