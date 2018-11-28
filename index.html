@@ -85,8 +85,15 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
                 {% if talk.description %}
                 <p>{{ talk.description }}</p>
                 {% endif %}
-                {% if talk.links %}
+                {% if talk.links or talk.difficulty %}
                 <ul class="links">
+                    {% if talk.difficulty %}
+                    <li>
+                        <span class="difficulty difficulty-{{ talk.difficulty | downcase | replace: ' ', '-' }} flag-text" title="Difficulty level {{ talk.difficulty }}">
+                            {{ talk.difficulty }}
+                        </span>
+                    </li>
+                    {% endif %}
                     {% for link in talk.links %}
                     <li><a href="{{ link.url }}" target="_blank" class="flag-text">{{ link.title }}</a></li>
                     {% endfor %}

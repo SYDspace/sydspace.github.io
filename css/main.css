@@ -276,16 +276,37 @@ a.sponsor-item img {
     display: inline-block;
 }
 
-.event-content ul.links li a {
+.event-content ul.links li a,
+.event-content ul.links li span {
     margin: 0 2px 4px 0;
-    padding: 5px 8px 5px 8px;
-    background: #eeeeee;
+    padding: 3px 6px 3px 6px;
+    border: 1px solid #fff;
     border-radius: 3px;
     text-decoration: none;
 }
 
+.event-content ul.links li a {
+    background: #eee;
+    border-color: #ddd;
+}
+
 .event-content ul.links li a:hover {
     background: #e7e7e7;
+}
+
+.event-content ul.links li span.difficulty-beginner {
+    border-color: #459b75;
+    color: #459b75;
+}
+
+.event-content ul.links li span.difficulty-intermediate {
+    border-color: #c9880a;
+    color: #c9880a;
+}
+
+.event-content ul.links li span.difficulty-advanced {
+    border-color: #c90a0a;
+    color: #c90a0a;
 }
 
 .event-content .event-description ul.links li a {

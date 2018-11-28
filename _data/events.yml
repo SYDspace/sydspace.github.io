@@ -34,6 +34,7 @@
         that allow us to create DSL for using in our applications. In addition we'll look at some 
         of the new things coming out in Kotlin 1.1, and in particular Coroutines, Type Aliases,
         Local Delegation Properties and Inline Properties.
+      difficulty: intermediate
       
     - speaker:
         name: Mike Gouline
@@ -48,6 +49,7 @@
         its production readiness. We’ll do that by writing a simple (but working) web API, with 
         some neat Kotlin features to boot, and figure out what the benefits of using this 
         framework are.
+      difficulty: intermediate
       
       links:
         - title: Slides
@@ -90,6 +92,7 @@
         possible to write a DSL that allows working on untyped data structures in a typed manner.   
         In this talk, we’ll go through different ways to define a DSL in Kotlin, from very simple 
         to fantastically powerful.
+      difficulty: advanced
       
       links:
         - title: Video
@@ -112,6 +115,7 @@
         In this talk we will look at the lessons learned from writing an Android app completely in 
         Kotlin. We will look at the advantages and disadvantages of using Kotlin and how it plays 
         with other technologies used, like RxJava & Realm.
+      difficulty: advanced
       
       links:
         - title: Video
@@ -175,6 +179,7 @@
         yield, async/await as part of the standard library. In this session we’re going to see 
         how all of this works and how Kotlin even provides us the ability to implement our own 
         asynchronous functionality.
+      difficulty: intermediate
       
       links:
         - title: Video
@@ -193,6 +198,7 @@
       description: >
         Based on an Reactive application, Erik will show the benefits of using Kotlin in the 
         backend using Spring Boot 2 and Spring 5.
+      difficulty: intermediate
         
       links:
         - title: Video
@@ -291,6 +297,7 @@
         and illustrated by walking through key design issues in a simple iOS app. I will discuss why 
         type-driven design benefits from functional programming principles, and also, how it allows us to 
         write less tests without a loss of confidence in our code.
+      difficulty: intermediate
 
       links:
           - title: Video
@@ -311,6 +318,7 @@
         data classes, properties, delegation, inline functions, string interpolation and much more. 
         But what does all this syntactic surger translate to? In this talk, we will take a look at some of 
         the bytecode that Kotlin generates to support our sweet tooth.
+      difficulty: advanced
 
 - id: meetup-november-2017
   title: "Meetup - November 2017"
@@ -342,6 +350,7 @@
       description: >
         An exceptionally brief primer on domain specific languages (DSLs) and context-free grammar. We will 
         then implement a DSL using parser combinators, live, on-stage!
+      difficulty: advanced
 
       links:
         - title: Video
@@ -402,6 +411,7 @@
         of changing code as the system needs to evolve. The continuum is language agnostic and applies to 
         any modern programming language, however, the provided examples will be all in Kotlin. So if you 
         like Kotlin, and enjoy a bit of monolith-vs-microservices discussion, please join us!
+      difficulty: intermediate
 
       links:
         - title: Slides
@@ -418,6 +428,7 @@
         Funktionale and Kategory have merged into Arrow, consolidating two of the most popular FP libraries in 
         the Kotlin space into one powerhouse. This talk is an introduction to some FP concepts, how the libraries 
         work, what features they bring to the table and where you might use them in your code.
+      difficulty: intermediate
 
       links:
         - title: Video
@@ -469,6 +480,7 @@
       description: >
         We will see how we can migrate a Vaadin App from Java to Kotlin. Step by step we will transform the code of an app 
         to see the difference. What are the easy parts, what looks like a little bit more work?
+      difficulty: intermediate
 
       links:
         - title: Video
@@ -491,6 +503,7 @@
         Exploring how Kotlin can improve the size, simplicity and maintainability of Android Bluetooth LE code, from reducing 
         boilerplate, simplifying control structures, and using coroutines. Creating a solid Bluetooth LE driver in just a few 
         pages of code.
+      difficulty: advanced
       
       links:
         - title: Video
@@ -534,6 +547,7 @@
         be scalable, evolve quickly, deploy often. However, these distributed architectures contain new challenges for debugging. 
         Luckily for us, there is a solution - distributed tracing. In this talk, I'll go through the experience of integrating 
         distributed tracing at Canva, the decisions we made and the challenges we faced.
+      difficulty: advanced
       
       links:
         - title: Slides
@@ -549,6 +563,7 @@
       description: >
         This talk covers all you need to know to migrate your Gradle scripts from Groovy to Kotlin. The richer syntax of Kotlin 
         makes your build scripts and utility methods more readable and who really wants to be writing Groovy?
+      difficulty: intermediate
       
       links:
         - title: Slides
@@ -585,6 +600,7 @@
         Data science, statistical analysis and machine learning are largely Python domains, but with many performance-focused 
         implementations based on the JVM, Kotlin has a good chance to break into this scene too. The intention of this talk is
         to give a shallow overview of what you can do today.
+      difficulty: intermediate
       
       links:
         - title: Slides
@@ -639,6 +655,7 @@
       description: >
         This short talk is an introduction to Circuit Breakers. We'll use Resilience4J to add a circuit breaker to an
         example Spring Boot + Kotlin application and then watch its behaviour as errors are encountered.
+      difficulty: advanced
       
       links:
         - title: Slides
@@ -657,6 +674,7 @@
       description: >
         The goal of this talk is to present the 7 best bug fixing strategies as well as 23 coding errors that 
         you may come across while mastering the Kotlin language.
+      difficulty: beginner
       
       links:
         - title: Slides
@@ -695,6 +713,7 @@
         The Kotlin Collections API is great for processing complex data structures with readable code. But 
         what’s the performance impact compared to using Java Streams? This talk will cover how to avoid the 
         obvious pitfalls and when to chose readability over performance.
+      difficulty: advanced
     
     - speaker:
         name: Shinoo Goyal
@@ -707,3 +726,4 @@
         The goal of this talk is learning about Kotlin functions and how they differ from the ones in Java. 
         The discussion is around variety of scopes offered by Kotlin functions and variations on how they can 
         be invoked. In addition, we will also take a look at lambdas and reified type parameters.
+      difficulty: beginner
