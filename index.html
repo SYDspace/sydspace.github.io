@@ -89,8 +89,9 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
                 <ul class="links">
                     {% if talk.difficulty %}
                     <li>
-                        <span class="difficulty difficulty-{{ talk.difficulty | downcase | replace: ' ', '-' }} flag-text" title="Difficulty level {{ talk.difficulty }}">
-                            {{ talk.difficulty }}
+                        <span class="difficulty difficulty-{{ talk.difficulty | downcase | replace: ' ', '-' }} flag-text" 
+                            title="{{ talk.difficulty | capitalize }} difficulty level ">
+                            {{ talk.difficulty | capitalize }}
                         </span>
                     </li>
                     {% endif %}
