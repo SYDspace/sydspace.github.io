@@ -714,6 +714,10 @@
         what’s the performance impact compared to using Java Streams? This talk will cover how to avoid the 
         obvious pitfalls and when to chose readability over performance.
       difficulty: advanced
+
+      links:
+        - title: Slides
+          url: /materials/2018-11-28-2/performance-readability.pdf
     
     - speaker:
         name: Shinoo Goyal
