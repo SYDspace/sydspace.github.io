@@ -731,3 +731,7 @@
         The discussion is around variety of scopes offered by Kotlin functions and variations on how they can 
         be invoked. In addition, we will also take a look at lambdas and reified type parameters.
       difficulty: beginner
+
+      links:
+        - title: Slides
+          url: /materials/2018-11-28-1/exploring-functions.pdf
