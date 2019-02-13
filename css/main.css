@@ -309,15 +309,6 @@ a.sponsor-item img {
     color: #c90a0a;
 }
 
-.event-content .event-description ul.links li a {
-    background: #58707e;
-    color: #f7f7f7!important;
-}
-
-.event-content .event-description ul.links li a:hover {
-    background: #5e7786;
-}
-
 .event-content .speaker-title {
     display: block;
     font-size: 8pt;

@@ -736,4 +736,35 @@
         - title: Slides
           url: /materials/2018-11-28-1/exploring-functions.pdf
 
-- announcement: "Next meetup: February 2019. Happy holidays! 🎄"
+- id: meetup-march-2019
+  title: "Meetup - March 2019"
+  url: https://www.meetup.com/sydney-kotlin/events/258865603/
+  date: 2019-03-26T18:00:00+11
+  description: >
+    Kotlin meetup is resuming in March this year and this one will be at yet another new venue, provided by 
+    Microsoft Reactor. Talks from a long time attendee, first time speaker, Andrew Gallasch, and a Microsoft 
+    local, Dave Glover. Should be fun!
+
+
+  location:
+    name: Microsoft Reactor
+    address: Level 10, 11 York Street, Sydney
+    url: https://goo.gl/maps/vqDPp1igQNt
+
+  sponsor:    
+    name: Microsoft
+    url: https://www.microsoft.com
+    image: sponsors/microsoft.png
+
+  talks:
+    - speaker:
+        name: Andrew Gallasch
+        title: Canva
+        url: https://www.linkedin.com/in/andrew-gallasch-26b26ba2/
+        image: profiles/andrew-gallasch.jpeg
+    
+    - speaker:
+        name: Dave Glover
+        title: Microsoft
+        url: https://twitter.com/dglover
+        image: profiles/dave-glover.jpeg
