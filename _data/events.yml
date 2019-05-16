@@ -827,6 +827,10 @@
         libraries. Join us to learn about native development new Kotlin/Native, code reuse between platforms 
         and multiplatform development fun.
       difficulty: intermediate
+
+      links:
+        - title: Slides
+          url: https://jonnyzzz.com/talks/#sydney2019
     
     - speaker:
         name: Adi Polak
