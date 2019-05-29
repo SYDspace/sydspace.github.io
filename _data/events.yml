@@ -846,3 +846,13 @@
         new feature that was released in Kotlin 1.3 and has similar counterparts in other languages 
         like C# and JavaScript. Let’s understand together what it is all about.
       difficulty: intermediate
+
+      links:
+        - title: Slides
+          url: https://speakerdeck.com/adipola/kotlin-coroutine-to-the-rescue
+        
+        - title: Source
+          url: https://github.com/adipola/kotlin-coroutine-transaction-process-mock
+        
+        - title: Article
+          url: https://dev.to/azure/5-min-to-kotlin-coroutine-10i3
