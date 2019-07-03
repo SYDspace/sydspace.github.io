@@ -856,3 +856,49 @@
         
         - title: Article
           url: https://dev.to/azure/5-min-to-kotlin-coroutine-10i3
+
+- id: meetup-july-2019
+  title: "Meetup - July 2019"
+  url: https://www.meetup.com/sydney-kotlin/events/262838844/
+  date: 2019-07-31T18:00:00+11
+  description: >
+    Fun fact: this meetup is the first ever in July and the first ever hosted in Surry Hills. Don't let the 
+    cold stop you from joining us for this cosy mid-winter get-together at Canva.
+
+  location:
+    name: Canva
+    address: 110 Kippax St, Surry Hills
+    url: https://goo.gl/maps/B2er3YnuGmzXXwUc6
+
+  sponsor:    
+    name: Canva
+    url: https://www.canva.com/
+    image: sponsors/canva.png
+
+  talks:
+    - speaker:
+        name: Jacob Bass
+        title: Ordermentum
+        url: https://twitter.com/bassjacob
+        image: profiles/bassjacob.jpg
+      
+      title: FP Answers to OO Questions
+      description: >
+        A tour through some functional design patterns, showcasing how to solve common object-oriented problems. 
+        Talk will demonstrate how they work, how to substitute them and what their trade-offs are.
+      
+      links:
+        - title: Slides
+          url: /materials/2019-07-31-1/functional-answers.pdf
+    
+    - speaker:
+        name: Paul Thompson
+        title: Canva
+        url: https://www.linkedin.com/in/pthompsonau/
+        image: profiles/pthompsonau.jpeg
+      
+      title: Make 100,000 unique HTTP requests fast with coroutines
+      description: >
+        Sometimes you need to perform many thousands of HTTP requests, to download files, interact with an API, 
+        or load test. In the past we at Canva were constantly creating Python or batch scripts to perform our 
+        tasks. Now we use a custom Kotlin DSL to make HTTP request scripting easy and ludicrously fast.
