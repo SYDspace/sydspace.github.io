@@ -902,3 +902,7 @@
         Sometimes you need to perform many thousands of HTTP requests, to download files, interact with an API, 
         or load test. In the past we at Canva were constantly creating Python or batch scripts to perform our 
         tasks. Now we use a custom Kotlin DSL to make HTTP request scripting easy and ludicrously fast.
+      
+      links:
+        - title: Slides
+          url: https://www.canva.com/design/DADhLUAtYM0/dPaUN-vG1PyTSkLtYkdL9A/view
