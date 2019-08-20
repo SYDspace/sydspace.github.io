@@ -886,6 +886,7 @@
       description: >
         A tour through some functional design patterns, showcasing how to solve common object-oriented problems. 
         Talk will demonstrate how they work, how to substitute them and what their trade-offs are.
+      difficulty: advanced
       
       links:
         - title: Slides
@@ -902,6 +903,7 @@
         Sometimes you need to perform many thousands of HTTP requests, to download files, interact with an API, 
         or load test. In the past we at Canva were constantly creating Python or batch scripts to perform our 
         tasks. Now we use a custom Kotlin DSL to make HTTP request scripting easy and ludicrously fast.
+      difficulty: intermediate
       
       links:
         - title: Slides
