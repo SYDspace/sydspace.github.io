@@ -908,3 +908,48 @@
       links:
         - title: Slides
           url: https://www.canva.com/design/DADhLUAtYM0/dPaUN-vG1PyTSkLtYkdL9A/view
+
+- id: meetup-october-2019
+  title: "Meetup - October 2019"
+  url: https://www.meetup.com/sydney-kotlin/events/264888864/
+  date: 2019-10-01T18:00:00+11
+  description: >
+    Spring already? Onto another new venue at Lorica Health in The Rocks. We have a good range of talks, from 
+    beginner to expert.
+
+  location:
+    name: Lorica Health
+    address: 3/55 Harrington St, The Rocks
+    url: https://goo.gl/maps/JbGvmys1dExAP4Te7
+
+  sponsor:    
+    name: Lorica Health
+    url: https://www.loricahealth.com/
+    image: sponsors/lorica.png
+
+  talks:
+    - speaker:
+        name: Tim Lavers
+        title: KPMG
+        url: https://www.linkedin.com/in/timlavers/
+        image: profiles/timlavers.jpeg
+      
+      title: Kotlin as a Teaching Language
+      description: >
+        In this talk we will consider the merits of Kotlin as an introductory programming language. We will 
+        see that it is possible to write surprisingly advanced programs using just a small number of concepts, 
+        as was done in my book "Programming for Beginners".
+      difficulty: beginner
+      
+    - speaker:
+        name: Reza Farahani
+        title: Landmarks ID
+        url: https://www.linkedin.com/in/reza-farahani-7a7bb74b/
+        image: profiles/rezafarahani.jpeg
+      
+      title: Ease Up Android Dependency Injection with Dagger 2.22.1
+      description: >
+        Recently I went through an app upgrade which internally manages dependencies with Dagger 2.10. I’ve 
+        upgraded it to Dagger 2.22.1 where many life saver annotations are added to minimise boilerplate code 
+        and managing components and modules. Here, we go through implementing the latest Dagger from scratch.
+      difficulty: intermediate
