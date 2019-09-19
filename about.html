@@ -1,0 +1,57 @@
+---
+layout: default
+id: about
+title: About
+description: "Sydney Kotlin User Group was officially founded in May 2017. Ever since, it has been organised by a group of volunteers passionate about Kotlin."
+---
+
+<div class="section clear">
+    <div class="section-content right">
+        <h1>About</h1>
+        <p>Sydney Kotlin User Group was officially founded in May 2017, however
+            the first one-off event was technically in August 2016 as part of
+            <a href="https://www.meetup.com/Android-Australia-User-Group-Sydney/">Android Australia User Group</a>.
+        </p>
+        <p>Ever since, it has been organised by a group of volunteers passionate
+            about Kotlin, with help from sponsors, local companies opening their
+            doors to organise events and JetBrains.
+        </p>
+    </div>
+</div>
+
+<div class="section clear">
+    
+    <a name="team" class="event-anchor"></a>
+    
+    <div class="event-content">
+        <h2>Team <a href="#team" class="section-anchor">#</a></h2>
+        <br/>
+        {% for person in site.data.team %}
+        {% if forloop.index > 1 %}<hr/>{% endif %}
+        <div class="sidebar-container" style="margin-bottom:10px;">
+            <div class="left left-20">
+                <h3 class="speaker-name">{{ person.name }}</h3>
+                <div class="speaker-title flag-text">{{ person.title }}</div>
+                {% if person.image %}
+                <div class="speaker-image">
+                    <img src="{{ site.rooturl }}/assets/{{ person.image }}" title="{{ person.name }}" />
+                </div>
+                {% endif %}
+            </div><div class="right right-80">
+                {% if person.description %}
+                <p>{{ person.description }}</p>
+                {% endif %}
+                {% if person.links %}
+                <ul class="links">
+                    {% for link in person.links %}
+                    <li><a href="{{ link.url }}" target="_blank" class="flag-text">{{ link.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+    

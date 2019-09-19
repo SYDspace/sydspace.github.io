@@ -1,0 +1,51 @@
+- id: mgouline
+  name: Mike Gouline
+  title: Organiser
+  description: >
+    Once a Java developer of different sorts, now working on things related to backend and 
+    data, including in Kotlin, which he's been using for over 5 years.
+    <br/><br/>
+    Founder of <a href="https://www.meetup.com/serversiders">Serversiders</a> and 
+    co-organiser of <a href="https://www.meetup.com/Sydney-JVM-Community/">Sydney JVM Community</a>.
+  image: profiles/mgouline.jpg
+  links:
+    - title: Website
+      url: https://mike.gouline.net
+    - title: Twitter
+      url: https://twitter.com/mgouline
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/mgouline
+    - title: GitHub
+      url: https://github.com/mgouline
+
+- id: epragt
+  name: Erik Pragt
+  title: Organiser
+  description: >
+    Founder of <a href="https://www.meetup.com/Sydney-JVM-Community/">Sydney JVM Community</a>.
+  image: profiles/epragt.jpg
+  links:
+    - title: Website
+      url: https://www.jworks.io/
+    - title: Twitter
+      url: https://twitter.com/epragt
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/erikpragt
+    - title: GitHub
+      url: https://github.com/bodiam
+
+- id: mtilbrook
+  name: Mitchell Tilbrook
+  title: Cameraman
+  description: >
+    Regular attendant and cameraman at every known meetup in Sydney.
+  image: profiles/sir_tilbrook.jpg
+  links:
+    - title: Website
+      url: https://marukami.github.io/
+    - title: Twitter
+      url: https://twitter.com/sir_tilbrook
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/mitchell-t-3982a331/
+    - title: GitHub
+      url: https://github.com/marukami

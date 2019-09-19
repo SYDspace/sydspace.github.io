@@ -940,6 +940,10 @@
         see that it is possible to write surprisingly advanced programs using just a small number of concepts, 
         as was done in my book "Programming for Beginners".
       difficulty: beginner
+
+      links:
+        - title: Slides
+          url: /materials/2019-10-01-2/teaching-language.pptx
       
     - speaker:
         name: Reza Farahani

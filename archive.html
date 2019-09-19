@@ -1,36 +1,23 @@
 ---
 layout: default
-id: home
-title: Home
-description: "Welcome, Kotliners! This is a group for anyone interested in Kotlin and located in Sydney, Australia. All developers welcome, regardless of their occupation: Android, backend, frontend or anything else. Meet new people, listen to interesting talks and expand your knowledge of this great language."
+id: archive
+title: Archive
+description: "Past events with links and resources to come back to and reminisce."
 ---
 
 <div class="section clear">
     <div class="section-content right">
-        <h1>Welcome, Kotliners!</h1>
-        <p>This is a group for anyone interested in <a href="https://kotlinlang.org/">Kotlin</a> and located in Sydney, Australia. All developers welcome, regardless of their occupation: Android, backend, frontend or anything else. Meet new people, listen to interesting talks and expand your knowledge of this great language.</p>
+        <h1>Archive</h1>
+        <p>Past events with links and resources to come back to and reminisce.</p>
     </div>
 </div>
 
 <div class="section clear">
-    
-    <fieldset class="sponsors-content">
-        <legend class="title flag-text">Sponsors</legend>
-        {% for sponsor in site.data.sponsors %}
-        <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank" class="item sponsor-item">
-            <img src="{{ site.rooturl }}/assets/{{ sponsor.image }}"/>
-        </a>
-        {% endfor %}
-        {% for event in site.data.events reversed %}
-        {% if forloop.index >= 3 %}{% break %}{% endif %}
-        <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="item sponsor-item">
-            <img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}"/>
-        </a>
-        {% endfor %}
-    </fieldset>
+
+    <a href="{{ site.rooturl }}/" class="more-link">Recent Events</a>
 
     {% for event in site.data.events reversed %}
-    {% if forloop.index >= 3 %}{% break %}{% endif %}
+    {% if forloop.index <= 2 %}{% continue %}{% endif %}
 
     {% if event.announcement %}
 
@@ -40,7 +27,7 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
     
     <a name="{{ event.id }}" class="event-anchor"></a>
     
-    <div class="event-content" date="{{ event.date | date: "%s" }}">
+    <div class="event-content">
         <h2><a href="{{ event.url }}" target="_blank">{{ event.title }}</a> <a href="#{{ event.id }}" class="section-anchor">#</a></h2>
         <div class="sidebar-container">
             <div class="left left-30">
@@ -48,7 +35,7 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
                     <b>{{ event.date | date: "%A, %d %B %Y" }}</b>
                     <br/>
                     <small>{{ event.date | date: "%I:%M %p" }}</small>
-                    <span class="upcoming-flag flag-text">Upcoming</span>
+                    <span class="upcoming-flag flag-text" date="{{ event.date | date: "%s" }}" style="display:none;">Upcoming</span>
                 </p>
                 <p>
                     {% if event.location.url %}<a href="{{ event.location.url }}" title="Google Maps">{% endif %}<b>{{ event.location.name }}</b>{% if event.location.url %}</a>{% endif %}
@@ -56,10 +43,16 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
                     <small>{{ event.location.address }}</small> 
                 </p>
                 
+                {% if event.sponsor %}
+                <p>
+                    <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="sponsor-item"><img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}"/></a>
+                </p>
+                {% endif %}
+                
             </div><div class="right right-70 event-description">
                 <p>{{ event.description }}</p>
                 <ul class="links">
-                    <li class="register-flag">
+                    <li class="register-flag" date="{{ event.date | date: "%s" }}" style="display:none;">
                         <a href="{{ event.url }}" target="_blank" class="flag-text">Register</a>
                     </li>
                 </ul>
@@ -109,31 +102,6 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
     {% endif %}
     {% endfor %}
     
-    <a href="{{ site.rooturl }}/archive" class="more-link">Previous Events</a>
+    <p class="more-limiter">Beginning of time</p>
 
 </div>
-
-<script>
-
-$(document).ready(function() {
-    if (window.location.hash) {
-        var name = window.location.hash.substring(1);
-        if ($(`a[name=${name}]`).length == 0) {
-            window.location.replace("{{ site.rooturl }}/archive" + window.location.hash);
-            return;
-        }
-    }
-
-    $(".event-content").each(function(index, elem) { toggleDatedElem(elem); });
-
-    function toggleDatedElem(elem) {
-        var rawDate = parseInt($(elem).attr('date'))
-        if (!isNaN(rawDate)) {
-            var date = new Date(0);
-            date.setSeconds(rawDate);
-            $(elem).toggleClass('event-content-upcoming', date > new Date());
-        }
-    }
-})
-
-</script>

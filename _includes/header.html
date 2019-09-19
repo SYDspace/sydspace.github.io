@@ -1,16 +1,17 @@
 <div id="header">
-    <div id="cover" class="fixed-width" style="">
-        <img src="{{ site.baseurl }}/assets/images/logo_medium.png" id="logo" />
+    <a id="cover" href="{{ site.rooturl }}/" class="fixed-width" style="display:block; text-decoration:none;">
+        <img src="{{ site.rooturl }}/assets/images/logo_medium.png" id="logo" />
         <div id="title">
             <span>{{ site.title | upcase }}</span>
             <span>{{ site.subtitle | upcase }}</span>
         </div>
-    </div>
+    </a>
     <div id="menu">
         <div class="fixed-width">
             <a href="{{ site.social_meetup }}" title="Meetup" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/nav_meetup.png"/>
+                <img src="{{ site.rooturl }}/assets/images/nav_meetup.png"/>
             </a>
+            <a href="{{ site.rooturl }}/about">About</a>
             <a href="https://goo.gl/forms/W5lMhsphk8OMqXVf2">Call for speakers</a>
             <a href="https://goo.gl/forms/N51iWvShFMNW094e2">Feedback</a>
             <a href="#" class="sydkotlin-email-menu">Email</a>
