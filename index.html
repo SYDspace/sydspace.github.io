@@ -23,9 +23,11 @@ description: "Welcome, Kotliners! This is a group for anyone interested in Kotli
         {% endfor %}
         {% for event in site.data.events reversed %}
         {% if forloop.index >= 3 %}{% break %}{% endif %}
+        {% if event.sponsor %}
         <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="item sponsor-item">
             <img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}"/>
         </a>
+        {% endif %}
         {% endfor %}
     </fieldset>
 
