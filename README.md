@@ -1,2 +1,2 @@
-# sydkotlin.github.io
+# sydspace.github.io
 Sydney Kotlin User Group
