@@ -122,7 +122,7 @@
           url: https://www.youtube.com/watch?v=dnGX8NU0aKc
         
         - title: Slides
-          url: /materials/2017-06-14-2/index.html
+          url: /kotlin/materials/2017-06-14-2/index.html
     
     - speaker:
         name: Ander MacArthur
@@ -186,7 +186,7 @@
           url: https://www.youtube.com/watch?v=eVxi3BGE5Rc
           
         - title: Slides
-          url: /materials/2017-08-14-2/coroutines.pdf
+          url: /kotlin/materials/2017-08-14-2/coroutines.pdf
     
     - speaker:
         name: Erik Pragt
@@ -205,7 +205,7 @@
           url: https://www.youtube.com/watch?v=5zGznI6gtOo
           
         - title: Slides
-          url: /materials/2017-08-14-1/spring-boot-2.pdf
+          url: /kotlin/materials/2017-08-14-1/spring-boot-2.pdf
           
         - title: Source
           url: https://github.com/bodiam/kotlin-meetup
@@ -304,7 +304,7 @@
             url: https://www.youtube.com/watch?v=qJJCfSqmWkA
           
           - title: Slides
-            url: /materials/2017-10-11-2/one-type-thousand-tests.pdf
+            url: /kotlin/materials/2017-10-11-2/one-type-thousand-tests.pdf
     
     - speaker:
         name: Mitchell Tilbrook
@@ -357,7 +357,7 @@
           url: https://www.youtube.com/watch?v=lHRC84sc4P0
 
         - title: Slides
-          url: /materials/2017-11-29-2/parsing-fancy.pdf
+          url: /kotlin/materials/2017-11-29-2/parsing-fancy.pdf
 
         - title: Source
           url: https://github.com/sigerber/parsing-fancy_kotlin
@@ -510,7 +510,7 @@
           url: https://youtu.be/vmIfxBGPxXU
         
         - title: Slides
-          url: /materials/2018-05-23-2/kotlin-bluetooth.pdf
+          url: /kotlin/materials/2018-05-23-2/kotlin-bluetooth.pdf
         
         - title: Source
           url: https://github.com/tali3san/kotlin-bluetooth
@@ -551,7 +551,7 @@
       
       links:
         - title: Slides
-          url: /materials/2018-06-27-2/distributed-tracing.pdf
+          url: /kotlin/materials/2018-06-27-2/distributed-tracing.pdf
 
     - speaker:
         name: Ruslan Ibragimov
@@ -623,7 +623,7 @@
       
       links:
         - title: Slides
-          url: /materials/2018-08-15-1/changing-career-direction.pdf
+          url: /kotlin/materials/2018-08-15-1/changing-career-direction.pdf
 
 - id: meetup-october-2018
   title: "Meetup - October 2018"
@@ -659,7 +659,7 @@
       
       links:
         - title: Slides
-          url: /materials/2018-10-24-2/circuit-breakers.pdf
+          url: /kotlin/materials/2018-10-24-2/circuit-breakers.pdf
         
         - title: Source
           url: https://bitbucket.org/garethsime/sydkotlin-circuit-breakers
@@ -678,7 +678,7 @@
       
       links:
         - title: Slides
-          url: /materials/2018-10-24-1/learning-kotlin.pdf
+          url: /kotlin/materials/2018-10-24-1/learning-kotlin.pdf
         
         - title: Source
           url: https://github.com/evgeny-trushin/Kotlin-Script_CLI_Presentation_Trial-And-Error/
@@ -717,7 +717,7 @@
 
       links:
         - title: Slides
-          url: /materials/2018-11-28-2/performance-readability.pdf
+          url: /kotlin/materials/2018-11-28-2/performance-readability.pdf
     
     - speaker:
         name: Shinoo Goyal
@@ -734,7 +734,7 @@
 
       links:
         - title: Slides
-          url: /materials/2018-11-28-1/exploring-functions.pdf
+          url: /kotlin/materials/2018-11-28-1/exploring-functions.pdf
 
 - id: meetup-march-2019
   title: "Meetup - March 2019"
@@ -890,7 +890,7 @@
       
       links:
         - title: Slides
-          url: /materials/2019-07-31-1/functional-answers.pdf
+          url: /kotlin/materials/2019-07-31-1/functional-answers.pdf
     
     - speaker:
         name: Paul Thompson
@@ -943,7 +943,7 @@
 
       links:
         - title: Slides
-          url: /materials/2019-10-01-2/teaching-language.pptx
+          url: /kotlin/materials/2019-10-01-2/teaching-language.pptx
       
     - speaker:
         name: Reza Farahani

@@ -14,9 +14,9 @@ description: "Past events with links and resources to come back to and reminisce
 
 <div class="section clear">
 
-    <a href="{{ site.rooturl }}/" class="more-link">Recent Events</a>
+    <a href="{{ site.rooturl }}/kotlin" class="more-link">Recent Events</a>
 
-    {% for event in site.data.events reversed %}
+    {% for event in site.data.kotlin.events reversed %}
     {% if forloop.index <= 2 %}{% continue %}{% endif %}
 
     {% if event.announcement %}
