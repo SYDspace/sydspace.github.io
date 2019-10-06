@@ -1,0 +1,61 @@
+sections:
+  - title: Projects
+    path: /projects
+
+  - title: Events
+    path: /events
+
+  - title: About
+    path: /about
+
+services:
+  - title: GitHub
+    type: github
+    url: https://github.com/sydspace
+  - title: Twitter
+    type: twitter
+    url: https://twitter.com/sydspace
+
+submenus:
+  default:
+    links:
+      - title: Kotlin User Group
+        path: /kotlin
+      - title: Kapsule
+        path: /kapsule
+
+  projects:
+    title: Projects
+    links:
+      - title: Kapsule
+        path: /kapsule
+  
+  kapsule:
+    title: Kapsule
+    links:
+      - title: Javadocs
+        path: /kapsule/docs
+      - title: GitHub
+        url: https://github.com/sydspace/kapsule
+      - title: Bintray
+        url: https://bintray.com/traversals/maven/kapsule
+      - title: Maven Central
+        url: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22space.traversal.kapsule
+
+  events:
+    title: Events
+    links:
+      - title: Kotlin User Group
+        path: /kotlin
+  
+  kotlin:
+    title: Kotlin User Group
+    path: /kotlin
+    icon: /assets/images/kotlin.png
+    links:
+      - title: Meetup.com
+        url: https://www.meetup.com/sydney-kotlin/
+      - title: Call for Speakers
+        url: https://goo.gl/forms/W5lMhsphk8OMqXVf2
+      - title: Feedback
+        url: https://goo.gl/forms/N51iWvShFMNW094e2

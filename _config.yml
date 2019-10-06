@@ -19,10 +19,4 @@ timezone: Australia/Sydney
 markdown: kramdown
 rooturl: "https://sydspace.org"
 
-# Content
-title: "Sydney Kotlin"
-subtitle: "User Group"
-
-# Social
-social_meetup: "https://www.meetup.com/sydney-kotlin/"
-social_twitter: "sydkotlin"
+title: "Sydspace"

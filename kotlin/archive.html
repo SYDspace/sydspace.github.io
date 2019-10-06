@@ -1,7 +1,7 @@
 ---
 layout: default
-id: archive
-title: Archive
+title: Kotlin User Group - Archive
+submenu: kotlin
 description: "Past events with links and resources to come back to and reminisce."
 ---
 
@@ -12,96 +12,7 @@ description: "Past events with links and resources to come back to and reminisce
     </div>
 </div>
 
-<div class="section clear">
-
-    <a href="{{ site.rooturl }}/kotlin" class="more-link">Recent Events</a>
-
-    {% for event in site.data.kotlin.events reversed %}
-    {% if forloop.index <= 2 %}{% continue %}{% endif %}
-
-    {% if event.announcement %}
-
-    <div class="event-announcement">{{ event.announcement }}</div>
-
-    {% else %}
-    
-    <a name="{{ event.id }}" class="event-anchor"></a>
-    
-    <div class="event-content">
-        <h2><a href="{{ event.url }}" target="_blank">{{ event.title }}</a> <a href="#{{ event.id }}" class="section-anchor">#</a></h2>
-        <div class="sidebar-container">
-            <div class="left left-30">
-                <p>
-                    <b>{{ event.date | date: "%A, %d %B %Y" }}</b>
-                    <br/>
-                    <small>{{ event.date | date: "%I:%M %p" }}</small>
-                    <span class="upcoming-flag flag-text" date="{{ event.date | date: "%s" }}" style="display:none;">Upcoming</span>
-                </p>
-                <p>
-                    {% if event.location.url %}<a href="{{ event.location.url }}" title="Google Maps">{% endif %}<b>{{ event.location.name }}</b>{% if event.location.url %}</a>{% endif %}
-                    <br/>
-                    <small>{{ event.location.address }}</small> 
-                </p>
-                
-                {% if event.sponsor %}
-                <p>
-                    <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="sponsor-item"><img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}"/></a>
-                </p>
-                {% endif %}
-                
-            </div><div class="right right-70 event-description">
-                <p>{{ event.description }}</p>
-                <ul class="links">
-                    <li class="register-flag" date="{{ event.date | date: "%s" }}" style="display:none;">
-                        <a href="{{ event.url }}" target="_blank" class="flag-text">Register</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        {% for talk in event.talks %}
-        <hr/>
-        <div class="sidebar-container" style="margin-bottom:10px;">
-            <div class="left left-30">
-                {% if talk.speaker.url %}<a href="{{ talk.speaker.url }}">{% endif %}
-                <h3 class="speaker-name">{{ talk.speaker.name }}</h3>
-                {% if talk.speaker.url %}</a>{% endif %}
-                <div class="speaker-title flag-text">{{ talk.speaker.title }}</div>
-                {% if talk.speaker.image %}
-                <div class="speaker-image">
-                    <img src="{{ site.rooturl }}/assets/{{ talk.speaker.image }}" title="{{ talk.speaker.name }}" />
-                </div>
-                {% endif %}
-            </div><div class="right right-70">
-                {% if talk.title %}
-                <h3>{{ talk.title }}</h3>
-                {% else %}
-                <p>To be announced</p>
-                {% endif %}
-                {% if talk.description %}
-                <p>{{ talk.description }}</p>
-                {% endif %}
-                {% if talk.links or talk.difficulty %}
-                <ul class="links">
-                    {% if talk.difficulty %}
-                    <li>
-                        <span class="difficulty difficulty-{{ talk.difficulty | downcase | replace: ' ', '-' }} flag-text" 
-                            title="{{ talk.difficulty | capitalize }} difficulty level ">
-                            {{ talk.difficulty | capitalize }}
-                        </span>
-                    </li>
-                    {% endif %}
-                    {% for link in talk.links %}
-                    <li><a href="{{ link.url }}" target="_blank" class="flag-text">{{ link.title }}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    {% endif %}
-    {% endfor %}
-    
-    <p class="more-limiter">Beginning of time</p>
-
-</div>
+{% include events/archive.html 
+    context='kotlin'
+    events=site.data.kotlin.events 
+    sponsors=site.data.kotlin.sponsors %}

@@ -1,31 +1,32 @@
 <meta charset="utf-8"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width"/>
-<meta name="theme-color" content="#49525e"/>
+<meta name="theme-color" content="#33373a"/>
 
 <!-- Content -->
-<title>{% if page.id != "home" %}{{ page.title }} - {% endif %}{{ site.title }} {{ site.subtitle }}</title>
+<title>{% if page.home != true %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ page.description }}"/>
 
 <!-- Open Graph -->
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="{% if page.id != "home" %}{{ page.title }} - {% endif %}{{ site.title }} {{ site.subtitle }}"/>
+<meta property="og:title" content="{% if page.home != true %}{{ page.title }} - {% endif %}{{ site.title }}"/>
 <meta property="og:description" content="{{ page.description }}"/>
 <meta property="og:url" content="{{ site.rooturl }}{{ page.url }}"/>
-<meta property="og:image" content="{{ site.rooturl }}/assets/images/logo_medium.png"/>
+<meta property="og:image" content="{{ site.rooturl }}/assets/images/card.jpg"/>
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="{% if page.id != "home" %}{{ page.title }} - {% endif %}{{ site.title }} {{ site.subtitle }}"/>
+<meta name="twitter:title" content="{% if page.home != true %}{{ page.title }} - {% endif %}{{ site.title }}"/>
 <meta name="twitter:description" content="{{ page.description }}"/>
 <meta name="twitter:site" content="@{{ site.social_twitter }}"/>
 <meta name="twitter:creator" content="@{{ site.social_twitter }}"/>
-<meta name="twitter:image:src" content="{{ site.rooturl }}/assets/images/logo_medium.png"/>
+<meta name="twitter:image:src" content="{{ site.rooturl }}/assets/images/card.jpg"/>
 
 <!-- Links -->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400&amp;subset=cyrillic" rel="stylesheet"/>
 <link href="{{ site.rooturl }}/assets/images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
 <link href="{{ site.rooturl }}/css/main.css" rel="stylesheet" type="text/css"/>
+<link href="{{ site.rooturl }}/css/code.css" rel="stylesheet" type="text/css"/>
 
 <!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -43,7 +44,12 @@
     $(document).ready(function() {
         var email = ['hello', 'sydspace', 'org']
         var email = email[0] + '@' + email[1] + '.' + email[2]
-        $('a.sydkotlin-email-menu').attr('href', 'mailto:' + email)
-        $('a.sydkotlin-email-link').attr('href', 'mailto:' + email).text(email)
+        $('a.sydspace-email-menu').attr('href', 'mailto:' + email)
+        $('a.sydspace-email-link').attr('href', 'mailto:' + email).text(email)
+
+        $('#back-to-top').click(function(){ 
+            $('html,body').animate({ scrollTop: 0 });
+            return false; 
+        });
     });
 </script>

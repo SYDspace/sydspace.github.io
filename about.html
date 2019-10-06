@@ -1,36 +1,66 @@
 ---
 layout: default
-id: about
 title: About
-description: "Sydney Kotlin User Group was officially founded in May 2017. Ever since, it has been organised by a group of volunteers passionate about Kotlin."
+description: "Sydspace grew out of the Sydney Kotlin User Group, which was officially founded in May 2017 by a group of volunteers passionate about Kotlin."
+
+team:
+- id: mgouline
+  name: Mike Gouline
+  title: Founder / Event Organiser
+  description: >
+    Once a Java developer of different sorts, now working on things related to backend and 
+    data, which he's been using for over 5 years.
+    <br/><br/>
+    Founder of Sydney Kotlin User Group and Serversiders, co-organiser of Sydney JVM Community.
+    <br/><br/>
+    Now also the founder of the Sydspace community.
+  image: profiles/mgouline.jpg
+  url: https://twitter.com/mgouline
+
+- id: epragt
+  name: Erik Pragt
+  title: Event Organiser
+  description: >
+    Founder of Sydney JVM Community, co-organiser of Sydney Kotlin User Group.
+  image: profiles/epragt.jpg
+  url: https://twitter.com/epragt
 ---
 
 <div class="section clear">
     <div class="section-content right">
         <h1>About</h1>
-        <p>Sydney Kotlin User Group was officially founded in May 2017, however
-            the first one-off event was technically in August 2016 as part of
+        <p>
+            Sydspace grew out of the Sydney Kotlin User Group, which was officially founded in May 2017 by
+            a group of volunteers passionate about Kotlin. The first event was actually even earlier than that,
+            in August 2016, organised as a special one-off night together with the 
             <a href="https://www.meetup.com/Android-Australia-User-Group-Sydney/">Android Australia User Group</a>.
+            Ever since it has been a regular event supported by JetBrains and local companies opening their doors 
+            as venues.
         </p>
-        <p>Ever since, it has been organised by a group of volunteers passionate
-            about Kotlin, with help from sponsors, local companies opening their
-            doors to organise events and JetBrains.
+        <p>
+            When the Kotlin meetups started gaining some traction, Serversiders was started as a sister group focused
+            on server-side development in other languages, not just Kotlin. Intended as an opportunity for people to 
+            discuss their stacks in Java, Go, Rust, Scala and others, it started running on the off-months when Kotlin 
+            meetups were on break.
+        </p>
+        <p>
+            Eventually, Sydspace was founded in October 2019 as a non-profit group to unify the existing meetups 
+            and provide a way for the local developer community to host their open source projects once they're ready
+            to be maintained by the wider audience.
         </p>
     </div>
-</div>
 
-<div class="section clear">
-    
     <a name="team" class="event-anchor"></a>
-    
     <div class="event-content">
         <h2>Team <a href="#team" class="section-anchor">#</a></h2>
         <br/>
-        {% for person in site.data.kotlin.team %}
+        {% for person in page.team %}
         {% if forloop.index > 1 %}<hr/>{% endif %}
         <div class="sidebar-container" style="margin-bottom:10px;">
             <div class="left left-20">
+                {% if person.url %}<a href="{{ person.url }}" target="_blank">{% endif %}
                 <h3 class="speaker-name">{{ person.name }}</h3>
+                {% if person.url %}</a>{% endif %}
                 <div class="speaker-title flag-text">{{ person.title }}</div>
                 {% if person.image %}
                 <div class="speaker-image">
@@ -53,5 +83,14 @@ description: "Sydney Kotlin User Group was officially founded in May 2017. Ever 
         {% endfor %}
     </div>
 
+    <br/>
+
+    <div class="section-content right">
+        <h2>Thanks!</h2>
+        <p>
+            Apart from the organisers, it wouldn't all be possible without many others helping out setting up the
+            venues, finding speakers, filming events and posting videos. Thank you to all of these wonderful people!
+        </p>
+    </div>
 </div>
     

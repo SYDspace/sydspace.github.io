@@ -1,0 +1,15 @@
+---
+layout: post
+title: Events
+submenu: events
+description: Community events organised by Sydspace.
+---
+
+# Community Events
+
+See menu above for community events currently organised by Sydspace.
+
+Other events not yet available on this website:
+
+* <a href="https://www.meetup.com/serversiders/" target="_blank">Serversiders</a>
+* <a href="https://www.meetup.com/Sydney-JVM-Community/" target="_blank">Sydney JVM Community</a>

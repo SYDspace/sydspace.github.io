@@ -1,0 +1,127 @@
+<div class="section clear">
+    
+    <fieldset class="sponsors-content">
+        <legend class="title flag-text">Sponsors</legend>
+        {% for sponsor in include.sponsors %}
+        <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank" class="item sponsor-item">
+            <img src="{{ site.rooturl }}/assets/{{ sponsor.image }}"/>
+        </a>
+        {% endfor %}
+        {% for event in include.events reversed %}
+        {% if forloop.index >= 3 %}{% break %}{% endif %}
+        {% if event.sponsor %}
+        <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="item sponsor-item">
+            <img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}"/>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </fieldset>
+
+    {% for event in include.events reversed %}
+    {% if forloop.index >= 3 %}{% break %}{% endif %}
+
+    {% if event.announcement %}
+
+    <div class="event-announcement">{{ event.announcement }}</div>
+
+    {% else %}
+    
+    <a name="{{ event.id }}" class="event-anchor"></a>
+    
+    <div class="event-content" date="{{ event.date | date: "%s" }}">
+        <h2><a href="{{ event.url }}" target="_blank">{{ event.title }}</a> <a href="#{{ event.id }}" class="section-anchor">#</a></h2>
+        <div class="sidebar-container">
+            <div class="left left-30">
+                <p>
+                    <b>{{ event.date | date: "%A, %d %B %Y" }}</b>
+                    <br/>
+                    <small>{{ event.date | date: "%I:%M %p" }}</small>
+                    <span class="upcoming-flag flag-text">Upcoming</span>
+                </p>
+                <p>
+                    {% if event.location.url %}<a href="{{ event.location.url }}" title="Google Maps">{% endif %}<b>{{ event.location.name }}</b>{% if event.location.url %}</a>{% endif %}
+                    <br/>
+                    <small>{{ event.location.address }}</small> 
+                </p>
+                
+            </div><div class="right right-70 event-description">
+                <p>{{ event.description }}</p>
+                <ul class="links">
+                    <li class="register-flag">
+                        <a href="{{ event.url }}" target="_blank" class="flag-text">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        {% for talk in event.talks %}
+        <hr/>
+        <div class="sidebar-container" style="margin-bottom:10px;">
+            <div class="left left-30">
+                {% if talk.speaker.url %}<a href="{{ talk.speaker.url }}" target="_blank">{% endif %}
+                <h3 class="speaker-name">{{ talk.speaker.name }}</h3>
+                {% if talk.speaker.url %}</a>{% endif %}
+                <div class="speaker-title flag-text">{{ talk.speaker.title }}</div>
+                {% if talk.speaker.image %}
+                <div class="speaker-image">
+                    <img src="{{ site.rooturl }}/assets/{{ talk.speaker.image }}" title="{{ talk.speaker.name }}" />
+                </div>
+                {% endif %}
+            </div><div class="right right-70">
+                {% if talk.title %}
+                <h3>{{ talk.title }}</h3>
+                {% else %}
+                <p>To be announced</p>
+                {% endif %}
+                {% if talk.description %}
+                <p>{{ talk.description }}</p>
+                {% endif %}
+                {% if talk.links or talk.difficulty %}
+                <ul class="links">
+                    {% if talk.difficulty %}
+                    <li>
+                        <span class="difficulty difficulty-{{ talk.difficulty | downcase | replace: ' ', '-' }} flag-text" 
+                            title="{{ talk.difficulty | capitalize }} difficulty level ">
+                            {{ talk.difficulty | capitalize }}
+                        </span>
+                    </li>
+                    {% endif %}
+                    {% for link in talk.links %}
+                    <li><a href="{{ link.url }}" target="_blank" class="flag-text">{{ link.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endfor %}
+    
+    <a href="{{ site.rooturl }}/{{ include.context }}/archive" class="more-link" style="text-align:right">Previous Events &rarr;</a>
+
+</div>
+
+<script>
+
+$(document).ready(function() {
+    if (window.location.hash) {
+        var name = window.location.hash.substring(1);
+        if ($(`a[name=${name}]`).length == 0) {
+            window.location.replace("{{ site.rooturl }}/{{ include.context }}/archive" + window.location.hash);
+            return;
+        }
+    }
+
+    $(".event-content").each(function(index, elem) { toggleDatedElem(elem); });
+
+    function toggleDatedElem(elem) {
+        var rawDate = parseInt($(elem).attr('date'))
+        if (!isNaN(rawDate)) {
+            var date = new Date(0);
+            date.setSeconds(rawDate);
+            $(elem).toggleClass('event-content-upcoming', date > new Date());
+        }
+    }
+})
+
+</script>
