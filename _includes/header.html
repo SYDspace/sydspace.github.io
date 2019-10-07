@@ -6,7 +6,7 @@
         </a>
         <span id="menu">
             {% for section in site.data.nav.sections %}
-            <a href="{{ site.rooturl }}{{ section.path }}">{{ section.title }}</a> 
+            <a {% if section.url %} href="{{ section.url }}" target="_blank" {% else %} href="{{ site.rooturl }}{{ section.path }}" {% endif %}>{{ section.title }}</a> 
             {% endfor %}
             {% for service in site.data.nav.services %}
             <a href="{{ service.url }}" title="{{ service.title }}" target="_blank" class="icon">
