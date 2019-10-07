@@ -2,12 +2,12 @@
 layout: post
 title: Projects
 submenu: projects
-description: Open source projects maintained by Sydspace.
+description: Open source projects maintained by SYDspace.
 ---
 
 # Open Source Projects
 
-See menu above for open source projects currently maintained by Sydspace.
+See menu above for open source projects currently maintained by SYDspace.
 
 See our [GitHub](https://github.com/sydspace) for more undocumented repositories that 
 have not made it to this website.

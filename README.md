@@ -1,3 +1,3 @@
 # sydspace.github.io
 
-Sydspace public website.
+SYDspace public website.
