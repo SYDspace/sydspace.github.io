@@ -7,6 +7,9 @@ sections:
 
   - title: About
     path: /about
+  
+  - title: Feedback
+    url: https://goo.gl/forms/N51iWvShFMNW094e2
 
 services:
   - title: GitHub
@@ -57,5 +60,3 @@ submenus:
         url: https://www.meetup.com/sydney-kotlin/
       - title: Call for Speakers
         url: https://goo.gl/forms/W5lMhsphk8OMqXVf2
-      - title: Feedback
-        url: https://goo.gl/forms/N51iWvShFMNW094e2
