@@ -1,0 +1,124 @@
+- id: meetup-february-2019
+  title: "Meetup - February 2019"
+  url: https://www.meetup.com/serversiders/events/258492059/
+  date: 2019-02-26T18:00:00+11
+  description: >
+    Welcome to the first ever Serversiders meetup, in association with Atlassian Engineering Nights! 
+    As you might have heard, we're a community of developers working on server-side applications, 
+    primarily in statically-typed languages, such as Java, Go, Kotlin, Rust and others.
+    <br/><br/>
+    This month we have two talks to get the ball rolling, one about Java and another about Go. Come 
+    by if that sounds interesting and hear more about the motivation behind the meetup and our future plans.
+  location:
+    name: Atlassian
+    address: Level 29, 363 George Street, Sydney
+    url: https://goo.gl/maps/HQ2kWJC1uHP2
+
+  talks:
+    - speaker:
+        name: Andreas Marek
+        title: Atlassian
+        url: https://www.linkedin.com/in/andreas-marek-5128a944/
+        image: profiles/amarek.jpeg
+      
+      title: Introduction to GraphQL with Java
+      
+      links:
+        - title: Slides
+          url: https://github.com/andimarek/talks/raw/master/introduction_to_graphql_java.pdf
+      
+    - speaker:
+        name: Jaime Martinez
+        title: Assembly Payments
+        url: https://www.linkedin.com/in/jaime-m88/
+        image: profiles/jmartinez.jpeg
+      
+      title: ORMs in Go
+      
+      links:
+        - title: Source
+          url: https://github.com/jaimemartinez88/go-sql-demo
+
+- id: meetup-june-2019
+  title: "Meetup - June 2019"
+  url: https://www.meetup.com/serversiders/events/260491066/
+  date: 2019-06-26T18:00:00+10
+  description: >
+    Last meetup in April got cancelled, so let's try this again. Same place, same theme and same 
+    speakers, so join us on the new winter date.
+  location:
+    name: Atlassian
+    address: Level 29, 363 George Street, Sydney
+    url: https://goo.gl/maps/HQ2kWJC1uHP2
+
+  talks:
+    - speaker:
+        name: Tony Sepentulevski
+        title: Assembly Payments
+        url: https://www.linkedin.com/in/tonysepentulevski/
+        image: profiles/tsepentulevski.jpeg
+      
+      title: DIY monitor dashboard for microservices
+      
+      links:
+        - title: Slides
+          url: https://www.dropbox.com/s/cmxae4kp92ejoeq/DIY%20monitor%20dashboard%20for%20microservices.pdf?dl=0
+      
+    - speaker:
+        name: Diego Berrueta
+        title: Atlassian
+        url: https://www.linkedin.com/in/berrueta/
+        image: profiles/dberrueta.jpeg
+      
+      title: Scaling towards a thousand microservices
+      
+      links:
+        - title: Slides
+          url: https://www.slideshare.net/berrueta/scaling-towards-a-thousand-micro-services/berrueta/scaling-towards-a-thousand-micro-services
+
+- id: meetup-august-2019
+  title: "Meetup - August 2019"
+  url: https://www.meetup.com/serversiders/events/263799179/
+  date: 2019-08-29T18:00:00+10
+  description: >
+    Third instalment of our humble meetup. Two new talks at the same old venue provided by our generous 
+    sponsor. Join us for a fun evening and start thinking about what you could give a talk about (hint hint).
+  location:
+    name: Atlassian
+    address: Level 29, 363 George Street, Sydney
+    url: https://goo.gl/maps/HQ2kWJC1uHP2
+
+  talks:
+    - speaker:
+        name: Martin Varga
+        title: Atlassian
+        url: https://www.linkedin.com/in/martin-t-varga-0176725/
+        image: profiles/mvarga.jpeg
+      
+      title: Future of Jira Software Powered by Kotlin
+      
+      links:
+        - title: Slides
+          url: https://speakerdeck.com/mtvarga/future-of-jira-software-powered-by-kotlin
+        - title: Source
+          url: https://bitbucket.org/atlassianlabs/animal-facts-graphql-gateway-demo/src/master/
+      
+    - speaker:
+        name: Amin Ezhdehakosh
+        title: Assembly Payments
+        url: https://www.linkedin.com/in/aminezhdehakosh/
+        image: profiles/aezhdehakosh.jpeg
+      
+      title: Moving to the Backend & Queuing with SQS
+
+- id: meetup-october-2019
+  title: "Meetup - October 2019"
+  url: https://www.meetup.com/serversiders/events/260491066/
+  date: 2019-10-30T18:00:00+11
+  description: >
+    Join us for the last meetup of the year, just before Halloween. Usual place, usual sponsors 
+    and two talks about server-side development.
+  location:
+    name: Atlassian
+    address: Level 29, 363 George Street, Sydney
+    url: https://goo.gl/maps/HQ2kWJC1uHP2

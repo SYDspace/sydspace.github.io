@@ -1,0 +1,27 @@
+---
+layout: default
+title: Serversiders
+submenu: serversiders
+description: "Welcome, Kotliners! This is a group for anyone interested in Kotlin and located in Sydney, Australia. All developers welcome, regardless of their occupation: Android, backend, frontend or anything else. Meet new people, listen to interesting talks and expand your knowledge of this great language."
+---
+
+<div class="section clear">
+    <div class="section-content right">
+        <h1>Welcome, Serversiders!</h1>
+        <p>
+            Serversiders, in association with Atlassian Engineering Nights, is a community of developers working 
+            on server-side applications, primarily in statically-typed languages, such as Java, Go, Kotlin, Rust 
+            and others.
+        </p>
+        <p></p>
+            Many groups focus on specific languages or frameworks. We understand that most real-world systems are 
+            built with a combination of related tools, so we aim to give people working on web backends, APIs and 
+            platforms a forum to discuss topics spanning multiple technologies.
+        </p>
+    </div>
+</div>
+
+{% include events/index.html 
+    context='serversiders'
+    events=site.data.serversiders.events 
+    sponsors=site.data.serversiders.sponsors %}

@@ -21,6 +21,8 @@ submenus:
     links:
       - title: Kotlin User Group
         path: /kotlin
+      - title: Serversiders
+        path: /serversiders
       - title: Kapsule
         path: /kapsule
       - title: Feedback
@@ -49,6 +51,8 @@ submenus:
     links:
       - title: Kotlin User Group
         path: /kotlin
+      - title: Serversiders
+        path: /serversiders
   
   kotlin:
     title: Kotlin User Group
@@ -59,3 +63,13 @@ submenus:
         url: https://www.meetup.com/sydney-kotlin/
       - title: Call for Speakers
         url: https://goo.gl/forms/W5lMhsphk8OMqXVf2
+
+  serversiders:
+    title: Serversiders
+    path: /serversiders
+    icon: /assets/images/serversiders.png
+    links:
+      - title: Meetup.com
+        url: https://www.meetup.com/serversiders/
+      - title: Call for Speakers
+        url: https://www.meetup.com/serversiders/discussions/4551126565388288/

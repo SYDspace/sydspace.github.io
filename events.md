@@ -11,5 +11,4 @@ See menu above for community events currently organised by SYDspace.
 
 Other events not yet available on this website:
 
-* <a href="https://www.meetup.com/serversiders/" target="_blank">Serversiders</a>
 * <a href="https://www.meetup.com/Sydney-JVM-Community/" target="_blank">Sydney JVM Community</a>

@@ -1,0 +1,18 @@
+---
+layout: default
+title: Serversiders - Archive
+submenu: serversiders
+description: "Past events with links and resources to come back to and reminisce."
+---
+
+<div class="section clear">
+    <div class="section-content right">
+        <h1>Archive</h1>
+        <p>Past events with links and resources to come back to and reminisce.</p>
+    </div>
+</div>
+
+{% include events/archive.html 
+    context='serversiders'
+    events=site.data.serversiders.events 
+    sponsors=site.data.serversiders.sponsors %}
