@@ -7,9 +7,6 @@ sections:
 
   - title: About
     path: /about
-  
-  - title: Feedback
-    url: https://goo.gl/forms/N51iWvShFMNW094e2
 
 services:
   - title: GitHub
@@ -26,6 +23,8 @@ submenus:
         path: /kotlin
       - title: Kapsule
         path: /kapsule
+      - title: Feedback
+        url: https://goo.gl/forms/N51iWvShFMNW094e2
 
   projects:
     title: Projects
