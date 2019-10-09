@@ -59,8 +59,5 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.7.4)
 
-RUBY VERSION
-   ruby 2.3.7p456
-
 BUNDLED WITH
    2.0.1

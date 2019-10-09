@@ -113,12 +113,48 @@
 
 - id: meetup-october-2019
   title: "Meetup - October 2019"
-  url: https://www.meetup.com/serversiders/events/260491066/
+  url: https://www.meetup.com/serversiders/events/265427940/
   date: 2019-10-30T18:00:00+11
   description: >
     Join us for the last meetup of the year, just before Halloween. Usual place, usual sponsors 
-    and two talks about server-side development.
+    and three talks about server-side development.
   location:
     name: Atlassian
     address: Level 29, 363 George Street, Sydney
     url: https://goo.gl/maps/HQ2kWJC1uHP2
+
+  talks:
+    - speaker:
+        name: Patrick Ellul
+        title: Assembly Payments
+        url: https://www.linkedin.com/in/patrick-ellul-2351875/
+        image: profiles/pellul.jpeg
+      
+      title: Hands-on Intro to gRPC and its Scaling Pitfalls
+      description: >
+        We’ll spec out a basic hello service and run a server and client for it. We’ll demonstrate 
+        an exercise in backwards compatibility. And then we’ll dive deep into the scaling gotchas 
+        for gRPC.
+      
+    - speaker:
+        name: Abhijit Kumar
+        title: Deltatre
+        url: https://www.linkedin.com/in/abhijitkumar1/
+        image: profiles/akumar.jpeg
+
+      title: Data Stream Processing for Beginners with Apache Kafka and Change Data Capture
+      description: >
+        Build real-time data streaming micro services with Apache Kafka, Kstreams and Debezium. 
+        Capture modification in MySQL records and stream the change events real time with Kafka and 
+        Debezium, consume and transform the change events data with Kstreams application.
+
+    - speaker:
+        name: Syed Mansoor
+        title: Mastercard
+        url: https://www.linkedin.com/in/syedmansoor/
+        image: profiles/smansoor.jpeg
+      
+      title: Introduction to Spring Cloud Kubernetes
+      description: >
+        We will explore how Spring Cloud Kubernetes provides seamless integration to consume 
+        Kubernetes native services like service discovery and configuration.
