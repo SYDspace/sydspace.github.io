@@ -17,7 +17,7 @@
   sponsor:
     name: Atlassian
     url: https://www.atlassian.com/
-    image: sponsors/atlassian.png
+    image: sponsors/atlassian.light.png
   
   talks:
     - speaker:
@@ -161,7 +161,7 @@
   sponsor:
     name: NDC Sydney
     url: http://ndcsydney.com/
-    image: sponsors/ndcsydney.png
+    image: sponsors/ndcsydney.light.png
   
   talks:
     - speaker: 
@@ -337,7 +337,7 @@
   sponsor:    
     name: Tyro   
     url: https://www.tyro.com/
-    image: sponsors/tyro.png
+    image: sponsors/tyro.light.png
 
   talks:
     - speaker: 
@@ -532,7 +532,7 @@
   sponsor:    
     name: Tyro   
     url: https://www.tyro.com/
-    image: sponsors/tyro.png
+    image: sponsors/tyro.light.png
 
   talks:
     - speaker: 
@@ -585,7 +585,7 @@
   sponsor:    
     name: Servian   
     url: https://www.servian.com/
-    image: sponsors/servian.png
+    image: sponsors/servian.light.png
 
   talks:
     - speaker: 
@@ -642,7 +642,7 @@
   sponsor:    
     name: Atlassian   
     url: https://www.atlassian.com/
-    image: sponsors/atlassian.png
+    image: sponsors/atlassian.light.png
 
   talks:
     - speaker: 
@@ -699,7 +699,7 @@
   sponsor:    
     name: Outware Part of Arq Group
     url: http://www.outware.com.au
-    image: sponsors/outware.png
+    image: sponsors/outware.light.png
 
   talks:
     - speaker:
@@ -925,7 +925,7 @@
   sponsor:    
     name: Lorica Health
     url: https://www.loricahealth.com/
-    image: sponsors/lorica.png
+    image: sponsors/lorica.light.png
 
   talks:
     - speaker:

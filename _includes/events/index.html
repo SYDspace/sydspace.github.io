@@ -4,14 +4,14 @@
         <legend class="title flag-text">Sponsors</legend>
         {% for sponsor in include.sponsors %}
         <a href="{{ sponsor.url }}" title="{{ sponsor.name }}" target="_blank" class="item sponsor-item">
-            <img src="{{ site.rooturl }}/assets/{{ sponsor.image }}"/>
+            <img src="{{ site.rooturl }}/assets/{{ sponsor.image }}" {% if sponsor.image contains ".light" %}class="light-background"{% endif %}/>
         </a>
         {% endfor %}
         {% for event in include.events reversed %}
         {% if forloop.index >= 3 %}{% break %}{% endif %}
         {% if event.sponsor %}
         <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="item sponsor-item">
-            <img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}"/>
+            <img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}" {% if event.sponsor.image contains ".light" %}class="light-background"{% endif %}/>
         </a>
         {% endif %}
         {% endfor %}

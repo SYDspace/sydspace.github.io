@@ -1,10 +1,10 @@
 - name: Atlassian
   url: https://www.atlassian.com/
-  image: sponsors/atlassian.png
+  image: sponsors/atlassian.light.png
 
 - name: Assembly Payments
   url: https://www.assemblypayments.com/
-  image: sponsors/assemblypayments.png
+  image: sponsors/assemblypayments.light.png
 
 - name: JetBrains
   url: https://www.jetbrains.com/

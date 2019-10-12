@@ -1,10 +1,10 @@
 <div id="header">
-    <div id="nav" class="fixed-width" style="padding-bottom:5px">
-        <a href="{{ site.rooturl }}/" id="title" title="{{ site.title }}">
+    <div class="nav fixed-width" style="padding-bottom:5px">
+        <a href="{{ site.rooturl }}/" class="title" title="{{ site.title }}">
             <img src="{{ site.rooturl }}/assets/images/logo_hero.png"/>
-            <span id="title-text">{{ site.title }}</span>
+            <span class="title-text">{{ site.title }}</span>
         </a>
-        <span id="menu">
+        <span class="menu">
             {% for section in site.data.nav.sections %}
             <a {% if section.url %} href="{{ section.url }}" target="_blank" {% else %} href="{{ site.rooturl }}{{ section.path }}" {% endif %}>{{ section.title }}</a> 
             {% endfor %}
@@ -15,8 +15,8 @@
             {% endfor %}
         </span>
     </div>
-    <div id="nav" class="fixed-width" style="background-color:#43474a; border-radius: 5px 5px 0 0; border:#333 solid 1px; border-width:1px 1px 0 1px;">
-        <span id="submenu">
+    <div class="nav subnav fixed-width">
+        <span class="submenu">
         {% if site.data.nav.submenus[page.submenu] %}
         {% assign submenu = page.submenu %}
         {% else %}
@@ -24,7 +24,7 @@
         {% endif %}
         
         {% if site.data.nav.submenus[submenu].title %}
-            <a {% if site.data.nav.submenus[submenu].path %} href="{{ site.rooturl }}{{ site.data.nav.submenus[submenu].path }}" {% endif %} class="title">
+            <a {% if site.data.nav.submenus[submenu].path %} href="{{ site.rooturl }}{{ site.data.nav.submenus[submenu].path }}" {% endif %} class="root">
                 {% if site.data.nav.submenus[submenu].icon %}
                 <img src="{{site.data.nav.submenus[submenu].icon}}"/>
                 {% endif %}

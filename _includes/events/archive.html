@@ -31,7 +31,7 @@
                 
                 {% if event.sponsor %}
                 <p>
-                    <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="sponsor-item"><img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}"/></a>
+                    <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="sponsor-item"><img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}" {% if event.sponsor.image contains ".light" %}class="light-background"{% endif %}/></a>
                 </p>
                 {% endif %}
                 
