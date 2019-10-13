@@ -1,4 +1,5 @@
 - id: kotlin-event-2016
+  context: kotlin
   title: "Kotlin Event"
   url: https://www.meetup.com/Android-Australia-User-Group-Sydney/events/232408253/
   date: 2016-08-04T18:00:00+10
@@ -59,6 +60,7 @@
           url: https://github.com/mgouline/vertx-kotlin-example
 
 - id: kotlin-night-2017
+  context: kotlin
   title: "Kotlin Night Sydney"
   url: https://www.meetup.com/sydney-kotlin/events/239311719/
   date: 2017-06-14T18:00:00+10
@@ -143,7 +145,8 @@
           url: https://docs.google.com/presentation/d/1rxOqytRjb9S2aF0E995Fn49kin3qU7uu7D-0rCkSkLI
 
 - id: meetup-august-2017
-  title: "Meetup - August 2017"
+  context: kotlin
+  title: "Kotlin Meetup - August 2017"
   url: https://www.meetup.com/sydney-kotlin/events/242135635/
   date: 2017-08-14T18:00:00+10
   description: >
@@ -211,6 +214,7 @@
           url: https://github.com/bodiam/kotlin-meetup
 
 - id: yow-night-2017-svetlana-isakova
+  context: kotlin
   title: "YOW! Night - Svetlana Isakova"
   url: https://www.eventbrite.com.au/e/yow-night-2017-sydney-svetlana-isakova-sept-26-tickets-36476095985
   date: 2017-09-26T18:30:00+10
@@ -263,7 +267,8 @@
           url: http://yowconference.com.au/slides/yownights/201709SvetlanaIsakova.pdf
 
 - id: meetup-october-2017
-  title: "Meetup - October 2017"
+  context: kotlin
+  title: "Kotlin Meetup - October 2017"
   url: https://www.meetup.com/sydney-kotlin/events/243878323/
   date: 2017-10-11T18:00:00+11
   description: >
@@ -321,7 +326,8 @@
       difficulty: advanced
 
 - id: meetup-november-2017
-  title: "Meetup - November 2017"
+  context: kotlin
+  title: "Kotlin Meetup - November 2017"
   url: https://www.meetup.com/sydney-kotlin/events/245276595/
   date: 2017-11-29T18:00:00+11
   description: >
@@ -379,7 +385,8 @@
           url: https://docs.google.com/presentation/d/1KAX68C8LF3DF7ORSTz9Rh9Y0CmftJwQr4O5xhShjSxQ
 
 - id: meetup-march-2018
-  title: "Meetup - March 2018"
+  context: kotlin
+  title: "Kotlin Meetup - March 2018"
   url: https://www.meetup.com/sydney-kotlin/events/247968958/
   date: 2018-03-08T18:00:00+11
   description: >
@@ -452,7 +459,8 @@
           url: https://docs.google.com/presentation/d/1ZWnHJ7-JQTuRfHqlNO3iRm7X8nDXuCdwejgdOt4Td_k/edit
 
 - id: meetup-may-2018
-  title: "Meetup - May 2018"
+  context: kotlin
+  title: "Kotlin Meetup - May 2018"
   url: https://www.meetup.com/sydney-kotlin/events/250479628/
   date: 2018-05-23T18:00:00+11
   description: >
@@ -516,7 +524,8 @@
           url: https://github.com/tali3san/kotlin-bluetooth
 
 - id: meetup-june-2018
-  title: "Meetup - June 2018"
+  context: kotlin
+  title: "Kotlin Meetup - June 2018"
   url: https://www.meetup.com/sydney-kotlin/events/251868152/
   date: 2018-06-27T18:00:00+11
   description: >
@@ -570,7 +579,8 @@
           url: https://docs.google.com/presentation/d/1tggdMkEsMO6Pf9qEbMUgD1-HjUGXQW1kvPpYflajaCw
 
 - id: meetup-august-2018
-  title: "Meetup - August 2018"
+  context: kotlin
+  title: "Kotlin Meetup - August 2018"
   url: https://www.meetup.com/sydney-kotlin/events/253400140/
   date: 2018-08-15T18:00:00+11
   description: >
@@ -626,7 +636,8 @@
           url: /kotlin/materials/2018-08-15-1/changing-career-direction.pdf
 
 - id: meetup-october-2018
-  title: "Meetup - October 2018"
+  context: kotlin
+  title: "Kotlin Meetup - October 2018"
   url: https://www.meetup.com/sydney-kotlin/events/255007560/
   date: 2018-10-24T18:00:00+11
   description: >
@@ -684,7 +695,8 @@
           url: https://github.com/evgeny-trushin/Kotlin-Script_CLI_Presentation_Trial-And-Error/
 
 - id: meetup-november-2018
-  title: "Meetup - November 2018"
+  context: kotlin
+  title: "Kotlin Meetup - November 2018"
   url: https://www.meetup.com/sydney-kotlin/events/255794817/
   date: 2018-11-28T18:00:00+11
   description: >
@@ -737,7 +749,8 @@
           url: /kotlin/materials/2018-11-28-1/exploring-functions.pdf
 
 - id: meetup-march-2019
-  title: "Meetup - March 2019"
+  context: kotlin
+  title: "Kotlin Meetup - March 2019"
   url: https://www.meetup.com/sydney-kotlin/events/258865603/
   date: 2019-03-26T18:00:00+11
   description: >
@@ -791,7 +804,8 @@
           url: https://1drv.ms/p/s!AoksQQquzfG6hapZCDATJEBnOxwFtw
 
 - id: meetup-may-2019
-  title: "Meetup - May 2019"
+  context: kotlin
+  title: "Kotlin Meetup - May 2019"
   url: https://www.meetup.com/sydney-kotlin/events/260071331/
   date: 2019-05-15T18:00:00+11
   description: >
@@ -858,7 +872,8 @@
           url: https://dev.to/azure/5-min-to-kotlin-coroutine-10i3
 
 - id: meetup-july-2019
-  title: "Meetup - July 2019"
+  context: kotlin
+  title: "Kotlin Meetup - July 2019"
   url: https://www.meetup.com/sydney-kotlin/events/262838844/
   date: 2019-07-31T18:00:00+11
   description: >
@@ -910,7 +925,8 @@
           url: https://www.canva.com/design/DADhLUAtYM0/dPaUN-vG1PyTSkLtYkdL9A/view
 
 - id: meetup-october-2019
-  title: "Meetup - October 2019"
+  context: kotlin
+  title: "Kotlin Meetup - October 2019"
   url: https://www.meetup.com/sydney-kotlin/events/264888864/
   date: 2019-10-01T18:00:00+11
   description: >

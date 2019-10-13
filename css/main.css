@@ -482,6 +482,25 @@ a.sponsor-item img {
     display: inline-block;
 }
 
+.promo hr {
+    margin: 12px 0;
+}
+
+.promo .promo-item {
+    margin-top: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.promo .promo-item img {
+    max-height: 18px;
+    margin-right: 5px;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
 .more-link {
     display: block;
     margin: 10px auto 5px auto; 
@@ -577,6 +596,11 @@ img.hero {
     .event-content {
         padding: 20px 20px;
     }
+
+    .promo {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
 }
 
 /* Phone-only */
@@ -634,6 +658,11 @@ img.hero {
     
     .event-content {
         padding: 15px 10px;
+    }
+
+    .promo {
+        margin-left: -10px;
+        margin-right: -10px;
     }
 }
 
@@ -712,6 +741,10 @@ img.hero {
     .event-content-upcoming {
         border-color: #343538;
         background: #333437;
+    }
+
+    .promo .promo-item img {
+        filter: brightness(0) invert(1);
     }
 
     .sponsors-content,

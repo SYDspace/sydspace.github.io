@@ -1,5 +1,6 @@
 - id: meetup-october-2019
-  title: "Meetup - February 2019"
+  context: jvm
+  title: "JVM Meetup - October 2019"
   url: https://www.meetup.com/Sydney-JVM-Community/events/265625067/
   date: 2019-10-31T18:00:00+11
   description: >

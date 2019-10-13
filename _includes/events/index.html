@@ -99,21 +99,25 @@
     
     {% if include.events.size > 2 %}
     <a href="{{ site.rooturl }}/{{ include.context }}/archive" class="more-link" style="text-align:right">Previous Events &rarr;</a>
+
+    <script>
+    $(document).ready(function() {
+        if (window.location.hash) {
+            var name = window.location.hash.substring(1);
+            if ($(`a[name=${name}]`).length == 0) {
+                window.location.replace("{{ site.rooturl }}/{{ include.context }}/archive" + window.location.hash);
+                return;
+            }
+        }
+    })
+    </script>
+
     {% endif %}
 
 </div>
 
 <script>
-
 $(document).ready(function() {
-    if (window.location.hash) {
-        var name = window.location.hash.substring(1);
-        if ($(`a[name=${name}]`).length == 0) {
-            window.location.replace("{{ site.rooturl }}/{{ include.context }}/archive" + window.location.hash);
-            return;
-        }
-    }
-
     $(".event-content").each(function(index, elem) { toggleDatedElem(elem); });
 
     function toggleDatedElem(elem) {
@@ -125,5 +129,4 @@ $(document).ready(function() {
         }
     }
 })
-
 </script>

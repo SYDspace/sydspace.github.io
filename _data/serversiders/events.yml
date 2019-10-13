@@ -1,5 +1,6 @@
 - id: meetup-february-2019
-  title: "Meetup - February 2019"
+  context: serversiders
+  title: "Serversiders - February 2019"
   url: https://www.meetup.com/serversiders/events/258492059/
   date: 2019-02-26T18:00:00+11
   description: >
@@ -40,7 +41,8 @@
           url: https://github.com/jaimemartinez88/go-sql-demo
 
 - id: meetup-june-2019
-  title: "Meetup - June 2019"
+  context: serversiders
+  title: "Serversiders - June 2019"
   url: https://www.meetup.com/serversiders/events/260491066/
   date: 2019-06-26T18:00:00+10
   description: >
@@ -77,7 +79,8 @@
           url: https://www.slideshare.net/berrueta/scaling-towards-a-thousand-micro-services/berrueta/scaling-towards-a-thousand-micro-services
 
 - id: meetup-august-2019
-  title: "Meetup - August 2019"
+  context: serversiders
+  title: "Serversiders - August 2019"
   url: https://www.meetup.com/serversiders/events/263799179/
   date: 2019-08-29T18:00:00+10
   description: >
@@ -112,7 +115,8 @@
       title: Moving to the Backend & Queuing with SQS
 
 - id: meetup-october-2019
-  title: "Meetup - October 2019"
+  context: serversiders
+  title: "Serversiders - October 2019"
   url: https://www.meetup.com/serversiders/events/265427940/
   date: 2019-10-30T18:00:00+11
   description: >

@@ -1,0 +1,17 @@
+<div class="event-content promo">
+    <h3>Latest Events</h3>
+    {% assign events = site.data.kotlin.events | concat: site.data.serversiders.events | concat: site.data.jvm.events %}
+    {% assign latest = events | sort: 'date' %}
+    {% for event in latest reversed %}
+    {% if forloop.index > 5 %}{% break %}{% endif %}
+    {% if forloop.index > 1 %}<hr>{% endif %}
+    <div class="promo-item">
+        <img src="{{ site.rooturl }}/assets/images/{{ event.context }}.png" />
+        <b><a href="{{ site.rooturl }}/{{ event.context }}#{{ event.id }}">{{ event.title }}</a></b>
+        &bull; {{ event.date | date: "%a, %d %b %Y" }}
+        <font style="opacity:.6">&bull; {{ event.talks | map: 'speaker' | map: 'name' | join: ', ' }}</font>
+        <font style="opacity:.3">&bull; {{ event.description }}</font>
+    </div>
+    {% endfor %}
+</div>
+<p/>
