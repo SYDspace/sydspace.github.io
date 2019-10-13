@@ -1,0 +1,22 @@
+---
+layout: default
+title: JVM Community
+submenu: jvm
+description: ""
+---
+
+<div class="section clear">
+    <div class="section-content right">
+        <h1>Welcome, JVM Community!</h1>
+        <p>
+            Everything about the Java ecosystem, the frameworks, the JVM languages, the tools etc... Each month 
+            meet some new Java user, talk about the news of the Java world and win some licences thanks to our 
+            sponsors!
+        </p>
+    </div>
+</div>
+
+{% include events/index.html 
+    context='jvm'
+    events=site.data.jvm.events 
+    sponsors=site.data.jvm.sponsors %}

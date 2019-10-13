@@ -23,6 +23,8 @@ submenus:
         path: /kotlin
       - title: Serversiders
         path: /serversiders
+      - title: JVM Community
+        path: /jvm
       - title: Kapsule
         path: /kapsule
       - title: Feedback
@@ -53,6 +55,8 @@ submenus:
         path: /kotlin
       - title: Serversiders
         path: /serversiders
+      - title: JVM Community
+        path: /jvm
   
   kotlin:
     title: Kotlin User Group
@@ -73,3 +77,11 @@ submenus:
         url: https://www.meetup.com/serversiders/
       - title: Call for Speakers
         url: https://www.meetup.com/serversiders/discussions/4551126565388288/
+
+  jvm:
+    title: JVM Community
+    path: /jvm
+    icon: /assets/images/jvm.png
+    links:
+      - title: Meetup.com
+        url: https://www.meetup.com/Sydney-JVM-Community/

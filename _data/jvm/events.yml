@@ -1,0 +1,44 @@
+- id: meetup-october-2019
+  title: "Meetup - February 2019"
+  url: https://www.meetup.com/Sydney-JVM-Community/events/265625067/
+  date: 2019-10-31T18:00:00+11
+  description: >
+    After being away for quite a while, another new meetup focused on JVM technology, including Java, 
+    Microservices, Kotlin, and much more. We hope to continue organising our meetup every 2 months, and 
+    we're always looking for speakers, from beginner topics to expert levels.
+
+  location:
+    name: Lorica Health
+    address: 3/55 Harrington St, The Rocks
+    url: https://goo.gl/maps/JbGvmys1dExAP4Te7
+
+  sponsor:    
+    name: Lorica Health
+    url: https://www.loricahealth.com/
+    image: sponsors/lorica.light.png
+
+  talks:
+    - speaker:
+        name: Rahul Gupta
+        title: Hazelcast
+        url: https://www.linkedin.com/in/rahul28/
+        image: profiles/rgupta.jpeg
+      
+      title: Fast Data Analytics in 2 Simple Steps
+      description: >
+        In this talk, Rahul will show how easy it is to add Hazelcast stream-processing engine to the IMDG, 
+        and how to analyse data already in-memory, to pull data from outside, and to push results elsewhere.
+        No-fuss coding, but blazing fast execution! All Java! The demo will be available to download afterward 
+        from Github.
+      
+    - speaker:
+        name: Diego Berrueta
+        title: Atlassian
+        url: https://www.linkedin.com/in/berrueta/
+        image: profiles/dberrueta.jpeg
+      
+      title: Scaling towards a thousand micro services
+      description: >
+        Join Diego as he recalls Atlassian's journey over the last few years. Learn about the multiple 
+        challenges of scaling from just a few to a thousand micro services, and the solutions that Atlassian 
+        has found at each stage.

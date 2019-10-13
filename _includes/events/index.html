@@ -97,7 +97,9 @@
     {% endif %}
     {% endfor %}
     
+    {% if include.events.size > 2 %}
     <a href="{{ site.rooturl }}/{{ include.context }}/archive" class="more-link" style="text-align:right">Previous Events &rarr;</a>
+    {% endif %}
 
 </div>
 
