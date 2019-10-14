@@ -12,9 +12,14 @@ services:
   - title: GitHub
     type: github
     url: https://github.com/sydspace
+    blank: true
   - title: Twitter
     type: twitter
     url: https://twitter.com/sydspace
+    blank: true
+  - title: Slack
+    type: slack
+    url: /slack
 
 submenus:
   default:
