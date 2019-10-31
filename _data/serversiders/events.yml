@@ -139,6 +139,13 @@
         We’ll spec out a basic hello service and run a server and client for it. We’ll demonstrate 
         an exercise in backwards compatibility. And then we’ll dive deep into the scaling gotchas 
         for gRPC.
+       
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/16-FcErcVNrrwJayPbd7v5aELnCBvuwh9uCraVuAFpcw
+        
+        - title: Source
+          url: https://github.com/ellulpatrick/grpc-demo
       
     - speaker:
         name: Abhijit Kumar
