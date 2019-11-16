@@ -158,6 +158,13 @@
         Build real-time data streaming micro services with Apache Kafka, Kstreams and Debezium. 
         Capture modification in MySQL records and stream the change events real time with Kafka and 
         Debezium, consume and transform the change events data with Kstreams application.
+      
+      links:
+        - title: Slides
+          url: https://www.slideshare.net/AbhijitKumar21/data-stream-processing-for-beginners-with-kafka-and-cdc
+        
+        - title: Source
+          url: https://github.com/nowwin4u/cdc-kafka-debezium
 
     - speaker:
         name: Syed Mansoor

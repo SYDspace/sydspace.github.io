@@ -978,4 +978,49 @@
         - title: Article
           url: https://medium.com/@rezafarahani/ease-up-android-dependency-injection-with-dagger-2-22-1-tip-and-tricks-kotlin-c5ec8374a5d7
 
-- announcement: Next event is planned for <b>late November</b>
+- id: meetup-december-2019
+  context: kotlin
+  title: "Kotlin Meetup - December 2019"
+  url: https://www.meetup.com/sydney-kotlin/events/266511341/
+  date: 2019-12-03T18:00:00+11
+  description: >
+    Last meetup of the year, let's make some time between Christmas parties at work and come together for 
+    some interesting talks back at Atlassian.
+
+  location:
+    name: Atlassian
+    address: Level 29, 363 George Street, Sydney
+    url: https://goo.gl/maps/HQ2kWJC1uHP2
+
+  sponsor:    
+    name: Atlassian   
+    url: https://www.atlassian.com/
+    image: sponsors/atlassian.light.png
+
+  talks:
+    - speaker:
+        name: Ruslan Ibragimov
+        title: Cochlear
+        url: https://twitter.com/cpprib
+        image: profiles/cpprib.jpg
+      
+      title: Creating an Architecture Around Android Notifications
+      description: >
+        Sometimes it can be tedious to work with Android notifications, separate a logic for showing 
+        notifications from UI representation. In this talk I want show an approach that can make 
+        notifications use be similar to how we use Android's Views. Also, this approach makes it 
+        easy to apply MVP, MVVM and other patterns when using notifications, which makes code related 
+        behind showing notifications and handling user's interactions separated from UI and testable.
+      
+    - speaker:
+        name: Samuel Marks
+        title: Offscale
+        url: https://www.linkedin.com/in/samuelmarks/
+        image: profiles/smarks.jpeg
+
+      title: Develop 36× Faster, Synchronise Backend, All Whilst Maintaining a Test Coverage of 100%
+      description: >
+        With multiple frontends—Android (Kotlin), iOS (Swift), web (TypeScript)—and a decoupled backend, 
+        it becomes cumbersome to maintain models, API server/client, validation, mocks and tests. We 
+        engineered five compilers—one for each language—with more on the way. These traverse the Abstract 
+        Syntax Tree (AST) in each –end, translating changes across language boundaries.
