@@ -1,9 +1,9 @@
 sections:
-  - title: Projects
-    path: /projects
-
   - title: Events
     path: /events
+
+  - title: Projects
+    path: /projects
 
   - title: About
     path: /about
@@ -30,28 +30,11 @@ submenus:
         path: /serversiders
       - title: JVM Community
         path: /jvm
-      - title: Kapsule
-        path: /kapsule
       - title: Feedback
         url: https://goo.gl/forms/N51iWvShFMNW094e2
 
   projects:
     title: Projects
-    links:
-      - title: Kapsule
-        path: /kapsule
-  
-  kapsule:
-    title: Kapsule
-    links:
-      - title: Javadocs
-        path: /kapsule/docs
-      - title: GitHub
-        url: https://github.com/sydspace/kapsule
-      - title: Bintray
-        url: https://bintray.com/traversals/maven/kapsule
-      - title: Maven Central
-        url: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22space.traversal.kapsule
 
   events:
     title: Events
