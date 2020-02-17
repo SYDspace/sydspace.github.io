@@ -176,3 +176,15 @@
       description: >
         We will explore how Spring Cloud Kubernetes provides seamless integration to consume 
         Kubernetes native services like service discovery and configuration.
+
+- id: meetup-february-2020
+  context: serversiders
+  title: "Serversiders - February 2020"
+  url: https://www.meetup.com/serversiders/events/268770935/
+  date: 2020-02-25T18:00:00+11
+  description: >
+    We're back for the first SYDspace meetup of the year. Usual Atlassian venue and a few good speakers.
+  location:
+    name: Atlassian
+    address: Level 29, 363 George Street, Sydney
+    url: https://goo.gl/maps/HQ2kWJC1uHP2
