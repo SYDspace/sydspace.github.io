@@ -188,3 +188,44 @@
     name: Atlassian
     address: Level 29, 363 George Street, Sydney
     url: https://goo.gl/maps/HQ2kWJC1uHP2
+  
+  talks:
+    - speaker:
+        name: Jorge Pinilla López
+        title: SICE
+        url: https://www.linkedin.com/in/jorpilo/
+        image: profiles/jplopez.jpeg
+      
+      title: Hunting Bugs with AFL Fuzzing
+      description: >
+        Fuzzing is an automatic software testing technique especially successful when applied to software that 
+        parses inputs such as JSON or XML requests or large packages of software, such as kernels. Fuzzing has 
+        already found big CVEs in common software such as OpenSSL, tcpdump, ext4, bash... In this talk we will 
+        explain what fuzzing consists of and how American Fuzzy Lop (AFL) works, which is one of the most used 
+        fuzzers.
+        
+    - speaker:
+        name: Jackson Moes
+        title: Atlassian
+        url: https://medium.com/@jmoes
+        image: profiles/jmoes.png
+      
+      title: The Journey of Scaling a Critical Backend Context Store
+      description: >
+        This talk covers the journey Atlassian made with its “tenant context service”, which is 
+        responsible for serving things like database creds, hostname resolution and various other pieces 
+        of metadata needed for all Jira / Confluence cloud requests. We’ll start with the early designs, 
+        and what triggers made us evolve the design to the point we can know serve 4 billion requests per 
+        day with six 9s of reliability and p99 < 1ms.
+
+    - speaker:
+        name: Nattha Warapasakul
+        title: Atlassian
+        url: https://www.linkedin.com/in/nattha/
+        image: profiles/nwarapasakul.jpeg
+      
+      title: Unlock Multilingual Search Using Elasticsearch
+      description: >
+        Is it possible, to create a search system on top of 50 languages when you can speak only 
+        1-2 languages. I will share my experience and knowledge on how I used Elasticsearch to 
+        create multilingual search engine.
