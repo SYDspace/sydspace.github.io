@@ -217,6 +217,13 @@
         of metadata needed for all Jira / Confluence cloud requests. We’ll start with the early designs, 
         and what triggers made us evolve the design to the point we can know serve 4 billion requests per 
         day with six 9s of reliability and p99 < 1ms.
+      
+      links:
+        - title: Slides
+          url: /serversiders/materials/2020-02-25-2/tcs.pdf
+        
+        - title: Article
+          url: https://www.atlassian.com/blog/technology/aws-scaling-multi-region-low-latency-service
 
     - speaker:
         name: Nattha Warapasakul
@@ -229,3 +236,7 @@
         Is it possible, to create a search system on top of 50 languages when you can speak only 
         1-2 languages. I will share my experience and knowledge on how I used Elasticsearch to 
         create multilingual search engine.
+      
+      links:
+        - title: Slides
+          url: /serversiders/materials/2020-02-25-1/multilingual-search.pdf
