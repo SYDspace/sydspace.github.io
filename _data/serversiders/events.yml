@@ -203,6 +203,10 @@
         already found big CVEs in common software such as OpenSSL, tcpdump, ext4, bash... In this talk we will 
         explain what fuzzing consists of and how American Fuzzy Lop (AFL) works, which is one of the most used 
         fuzzers.
+      
+      links:
+        - title: Slides
+          url: https://docs.google.com/presentation/d/1Esg39PLK6bPTOYUgXGyjP5jE_FZokYxXGTbim-NFY4M
         
     - speaker:
         name: Jackson Moes
