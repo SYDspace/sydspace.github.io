@@ -43,3 +43,49 @@
         Join Diego as he recalls Atlassian's journey over the last few years. Learn about the multiple 
         challenges of scaling from just a few to a thousand micro services, and the solutions that Atlassian 
         has found at each stage.
+
+- id: meetup-march-2020
+  context: jvm
+  title: "JVM Meetup - March 2020"
+  url: https://www.meetup.com/Sydney-JVM-Community/events/268767130/
+  date: 2020-03-04T18:00:00+11
+  description: >
+    Welcome to the first JVM session of 2020. This month, we have Stuart Douglas of Redhat and Brandon Neo from 
+    Dynatrace joining us. Stuart will share his experiences with Quarkus while Brandon will dive into the 
+    observability of the JVM internals!
+
+  location:
+    name: Dynatrace
+    address: Level 18, 100 Miller St, North Sydney
+    url: https://goo.gl/maps/Kh1j6Uro47hYWeBw9
+
+  sponsor:    
+    name: Dynatrace
+    url: https://www.dynatrace.com
+    image: sponsors/dynatrace.light.png
+
+  talks:
+    - speaker:
+        name: Brandon Neo
+        title: Dynatrace
+        url: https://www.linkedin.com/in/brandon-neo/
+        image: profiles/bneo.jpg
+      
+      title: Automate your JVM Observability
+      description: >
+        Tired of slow queries? Insufficient exception handling? Still searching for that code to
+        plug to stop that memory leak? There is an easier way..
+
+    - speaker:
+        name: Stuart Douglas
+        title: Red Hat
+        url: https://www.linkedin.com/in/stuart-douglas-64709051/
+        image: profiles/sdouglas.jpg
+      
+      title: How Quarkus makes Java relevant for modern programming
+      description: >
+        Are all your node.js friends bragging about reactive/functional programming? Bored to tears by 
+        your .NET friends talking about all the new Core 3.0 libraries? Sick of your Go friends lording 
+        it over you how slowly your SpringBoot server is to startup? Quarkus might be for you.
+      
+    
