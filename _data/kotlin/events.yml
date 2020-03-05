@@ -305,11 +305,11 @@
       difficulty: intermediate
 
       links:
-          - title: Video
-            url: https://www.youtube.com/watch?v=qJJCfSqmWkA
-          
-          - title: Slides
-            url: /kotlin/materials/2017-10-11-2/one-type-thousand-tests.pdf
+        - title: Video
+          url: https://www.youtube.com/watch?v=qJJCfSqmWkA
+        
+        - title: Slides
+          url: /kotlin/materials/2017-10-11-2/one-type-thousand-tests.pdf
     
     - speaker:
         name: Mitchell Tilbrook

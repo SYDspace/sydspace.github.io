@@ -88,4 +88,6 @@
         your .NET friends talking about all the new Core 3.0 libraries? Sick of your Go friends lording 
         it over you how slowly your SpringBoot server is to startup? Quarkus might be for you.
       
-    
+      links:
+        - title: Slides
+          url: /jvm/materials/2020-03-04-2/quarkus.pdf
