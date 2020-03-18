@@ -1,6 +1,6 @@
 <div class="section clear">
 
-    <a href="{{ site.rooturl }}/{{ include.context }}" class="more-link" style="text-align:left">&larr; Recent Events</a>
+    <a href="{{ '/' | append: include.context | relative_url }}" class="more-link" style="text-align:left">&larr; Recent Events</a>
 
     {% for event in include.events reversed %}
     {% if forloop.index <= 2 %}{% continue %}{% endif %}
@@ -31,7 +31,7 @@
                 
                 {% if event.sponsor %}
                 <p>
-                    <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="sponsor-item"><img src="{{ site.rooturl }}/assets/{{ event.sponsor.image }}" {% if event.sponsor.image contains ".light" %}class="light-background"{% endif %}/></a>
+                    <a href="{{ event.sponsor.url }}" title="{{ event.sponsor.name }}" target="_blank" class="sponsor-item"><img src="{{ '/assets/' | append: event.sponsor.image | relative_url }}" {% if event.sponsor.image contains ".light" %}class="light-background"{% endif %}/></a>
                 </p>
                 {% endif %}
                 
@@ -54,7 +54,7 @@
                 <div class="speaker-title flag-text">{{ talk.speaker.title }}</div>
                 {% if talk.speaker.image %}
                 <div class="speaker-image">
-                    <img src="{{ site.rooturl }}/assets/{{ talk.speaker.image }}" title="{{ talk.speaker.name }}" />
+                    <img src="{{ '/assets/' | append: talk.speaker.image | relative_url }}" title="{{ talk.speaker.name }}" />
                 </div>
                 {% endif %}
             </div><div class="right right-70">

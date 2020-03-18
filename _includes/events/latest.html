@@ -6,8 +6,8 @@
     {% if forloop.index > 5 %}{% break %}{% endif %}
     {% if forloop.index > 1 %}<hr>{% endif %}
     <div class="promo-item">
-        <img src="{{ site.rooturl }}/assets/images/{{ event.context }}.png" />
-        <b><a href="{{ site.rooturl }}/{{ event.context }}#{{ event.id }}">{{ event.title }}</a></b>
+        <img src="{{ '/assets/images/' | append: event.context | append: '.png' | relative_url }}" />
+        <b><a href="{{ '/' | append: event.context | append: '#' | append: event.id | relativer_url }}">{{ event.title }}</a></b>
         &bull; {{ event.date | date: "%a, %d %b %Y" }}
         <font style="opacity:.6">&bull; {{ event.talks | map: 'speaker' | map: 'name' | join: ', ' }}</font>
         <font style="opacity:.3">&bull; {{ event.description }}</font>

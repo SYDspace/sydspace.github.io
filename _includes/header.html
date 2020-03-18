@@ -1,38 +1,40 @@
 <div id="header">
     <div class="nav fixed-width" style="padding-bottom:5px">
-        <a href="{{ site.rooturl }}/" class="title" title="{{ site.title }}">
-            <img src="{{ site.rooturl }}/assets/images/logo_hero.png"/>
+        <a href="{{ '/' | relative_url }}" class="title" title="{{ site.title }}">
+            <img src="{{ '/assets/images/logo_hero.png' | relative_url }}"/>
             <span class="title-text">{{ site.title }}</span>
         </a>
         <span class="menu">
-            {% for section in site.data.nav.sections %}
-            <a {% if section.url %} href="{{ section.url }}" target="_blank" {% else %} href="{{ site.rooturl }}{{ section.path }}" {% endif %}>{{ section.title }}</a> 
+            {% for section in site.data.global.sections %}
+            <a {% if section.url %} href="{{ section.url }}" target="_blank" {% else %} href="{{ section.path | relative_url }}" {% endif %}>{{ section.title }}</a> 
             {% endfor %}
-            {% for service in site.data.nav.services %}
+            {% for item in site.data.global.social %}
+            {% assign type = item[0] %}
+            {% assign service = item[1] %}
             <a href="{{ service.url }}" title="{{ service.title }}" {% if service.blank %}target="_blank"{% endif %} class="icon">
-                <img src="{{ site.rooturl }}/assets/images/nav_{{ service.type }}.png"/>
+                <img src="{{ '/assets/images/nav_' | append: type | append: '.png' | relative_url }}"/>
             </a>
             {% endfor %}
         </span>
     </div>
     <div class="nav subnav fixed-width">
         <span class="submenu">
-        {% if site.data.nav.submenus[page.submenu] %}
+        {% if site.data.global.submenus[page.submenu] %}
         {% assign submenu = page.submenu %}
         {% else %}
         {% assign submenu = 'default' %}
         {% endif %}
         
-        {% if site.data.nav.submenus[submenu].title %}
-            <a {% if site.data.nav.submenus[submenu].path %} href="{{ site.rooturl }}{{ site.data.nav.submenus[submenu].path }}" {% endif %} class="root">
-                {% if site.data.nav.submenus[submenu].icon %}
-                <img src="{{site.data.nav.submenus[submenu].icon}}"/>
+        {% if site.data.global.submenus[submenu].title %}
+            <a {% if site.data.global.submenus[submenu].path %} href="{{ site.data.global.submenus[submenu].path | relative_url }}" {% endif %} class="root">
+                {% if site.data.global.submenus[submenu].icon %}
+                <img src="{{site.data.global.submenus[submenu].icon}}"/>
                 {% endif %}
-                {{ site.data.nav.submenus[submenu].title }}
+                {{ site.data.global.submenus[submenu].title }}
             </a>
         {% endif %}
-        {% for l in site.data.nav.submenus[submenu].links %}
-            <a {% if l.url %} href="{{ l.url }}" target="_blank" {% else %} href="{{ site.rooturl }}{{ l.path }}" {% endif %}>{{ l.title }}</a>
+        {% for l in site.data.global.submenus[submenu].links %}
+            <a {% if l.url %} href="{{ l.url }}" target="_blank" {% else %} href="{{ l.path | relative_url }}" {% endif %}>{{ l.title }}</a>
         {% endfor %}
             <a>&nbsp;</a>
         </span>

@@ -8,17 +8,17 @@ sections:
   - title: About
     path: /about
 
-services:
-  - title: GitHub
-    type: github
+social:
+  github:
+    title: GitHub
+    user: sydspace
     url: https://github.com/sydspace
-    blank: true
-  - title: Twitter
-    type: twitter
+  twitter:
+    title: Twitter
+    user: sydspace
     url: https://twitter.com/sydspace
-    blank: true
-  - title: Slack
-    type: slack
+  slack:
+    title: Slack
     url: /slack
 
 submenus:

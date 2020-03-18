@@ -11,22 +11,23 @@
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="{% if page.home != true %}{{ page.title }} - {% endif %}{{ site.title }}"/>
 <meta property="og:description" content="{{ page.description }}"/>
-<meta property="og:url" content="{{ site.rooturl }}{{ page.url }}"/>
-<meta property="og:image" content="{{ site.rooturl }}/assets/images/card.jpg"/>
+<meta property="og:url" content="{{ page.url | absolute_url }}"/>
+<meta property="og:image" content="{{ '/assets/images/card.jpg' | absolute_url }}"/>
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="{% if page.home != true %}{{ page.title }} - {% endif %}{{ site.title }}"/>
 <meta name="twitter:description" content="{{ page.description }}"/>
-<meta name="twitter:site" content="@{{ site.social_twitter }}"/>
-<meta name="twitter:creator" content="@{{ site.social_twitter }}"/>
-<meta name="twitter:image:src" content="{{ site.rooturl }}/assets/images/card.jpg"/>
+<meta name="twitter:site" content="@{{ site.data.global.social.twitter.user }}"/>
+<meta name="twitter:creator" content="@{{ site.data.global.social.twitter.user }}"/>
+<meta name="twitter:image:src" content="{{ '/assets/images/card.jpg' | absolute_url }}"/>
 
 <!-- Links -->
+<link href="{{ '/assets/images/favicon.png' | absolute_url }}" rel="shortcut icon" type="image/x-icon"/>
+<link href="{{ '/assets/images/favicon.png' | absolute_url }}" rel="apple-touch-icon" />
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400&amp;subset=cyrillic" rel="stylesheet"/>
-<link href="{{ site.rooturl }}/assets/images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
-<link href="{{ site.rooturl }}/css/main.css" rel="stylesheet" type="text/css"/>
-<link href="{{ site.rooturl }}/css/code.css" rel="stylesheet" type="text/css"/>
+<link href="{{ '/css/main.css' | relative_url }}" rel="stylesheet" type="text/css"/>
+<link href="{{ '/css/code.css' | relative_url }}" rel="stylesheet" type="text/css"/>
 
 <!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
