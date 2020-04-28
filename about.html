@@ -8,8 +8,7 @@ team:
   name: Mike Gouline
   title: Founder / Event Organiser
   description: >
-    Once a Java developer of different sorts, now working on things related to backend and 
-    data, which he's been using for over 5 years.
+    Once a Java developer of different sorts, now working on things related to backend and data.
     <br/><br/>
     Founder of Sydney Kotlin User Group and Serversiders, co-organiser of Sydney JVM Community.
     <br/><br/>
@@ -72,7 +71,7 @@ team:
                 <div class="speaker-title flag-text">{{ person.title }}</div>
                 {% if person.image %}
                 <div class="speaker-image">
-                    <img src="'{{ '/assets/' | append: person.image | relative_url }}" title="{{ person.name }}" />
+                    <img src="{{ '/assets/' | append: person.image | relative_url }}" title="{{ person.name }}" />
                 </div>
                 {% endif %}
             </div><div class="right right-80">
