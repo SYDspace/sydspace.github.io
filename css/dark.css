@@ -1,0 +1,85 @@
+
+@media (prefers-color-scheme: dark) {
+
+    html, body {
+        background: #222;
+    }
+
+    code {
+        color: #b6c5ce;
+    }
+    
+    pre.highlight {
+        background: #222223;
+    }
+
+    blockquote {
+        border-color: #778;
+    }
+
+    #header .subnav {
+        background: #3a3e41; 
+    }
+
+    #content {
+        color: #dbddde;
+        border-color: #202322;
+        background: #27282b;
+    }
+
+    #content a {
+        color: #b3b7ba;
+    }
+
+    .section-content img {
+        opacity: 0.85;
+    }
+
+    .event-content {
+        border-color: #2e2f32;
+        background: #2e2f32;
+    }
+
+    .event-content hr {
+        background: #47474f;
+    }
+
+    .event-content ul.links li a {
+        background: #303134;
+    }
+
+    .event-content .speaker-image {
+        border-color: #27272f;
+    }
+
+    .event-content-upcoming {
+        border-color: #343538;
+        background: #333437;
+    }
+
+    .promo .promo-item img {
+        filter: brightness(0) invert(1);
+    }
+
+    .sponsors-content,
+    .sponsors-content .title {
+        border-color: #4e4f52;
+    }
+
+    .sponsors-content .title {
+        color: #a3a7a9;
+    }
+
+    a.sponsor-item img.light-background {
+        filter: brightness(0) invert(1) brightness(0.85);
+    }
+
+    #footer {
+        color: #fff;
+    }
+
+    #footer img {
+        filter: brightness(0) invert(1);
+    }
+
+}

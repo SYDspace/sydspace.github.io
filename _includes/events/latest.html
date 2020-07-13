@@ -1,9 +1,18 @@
 <div class="event-content promo">
     <h3>Latest Events</h3>
+
+    <blockquote>
+        <p>Due to the ongoing COVID-19 pandemic, none of the events are running until further notice.</p>
+    </blockquote>
+
     {% assign events = site.data.kotlin.events | concat: site.data.serversiders.events | concat: site.data.jvm.events %}
     {% assign latest = events | sort: 'date' %}
+    {% assign currentTs = site.time | date: "%s" %}
+
     {% for event in latest reversed %}
-    {% if forloop.index > 5 %}{% break %}{% endif %}
+    {% assign eventTs = event.date | date: "%s" %}
+    {% assign eventAge = currentTs | minus: eventTs %}
+    {% if forloop.index > 5 or eventAge > 7776000 %}{% break %}{% endif %}
     {% if forloop.index > 1 %}<hr>{% endif %}
     <div class="promo-item">
         <img src="{{ '/assets/images/' | append: event.context | append: '.png' | relative_url }}" />

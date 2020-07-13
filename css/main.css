@@ -135,19 +135,18 @@ button:hover {
 
 #header {
     padding-top: 5px;
-    background-color: #33373a;
+    background-color: #d7dbde;
 }
 
 #header .nav {
     display: flex;
     align-items: center;
     text-align: left;
-    color: #fff;
+    color: #333;
 }
 
 #header .subnav {
-    background: #43474a; 
-    border: #333 solid 1px; 
+    background: #f1f2f4; 
     border-width: 1px 1px 0 1px;
 }
 
@@ -158,14 +157,15 @@ button:hover {
     font-size: 14pt;
     font-weight: 500;
     text-decoration: none;
-    color: #fff;
+    color: #333;
 }
 
 #header .nav .title img {
-    width: 40px; 
-    height: 40px; 
+    width: 30px; 
+    height: 30px; 
     margin-right: 5px;
-    vertical-align: middle; 
+    vertical-align: middle;
+
 }
 
 #header .nav .title small {
@@ -190,18 +190,19 @@ button:hover {
 #header .nav .menu a,
 #header .subnav .submenu a,
 #header .subnav .submenu span {
-    padding: 4px 5px 3px 5px;
+    padding: 4px 5px 4px 5px;
     border-radius: 3px;
     vertical-align: middle;
     text-decoration: none;
     opacity: 0.5;
     font-weight: 500;
-    color: #fff;
+    color: #000;
 }
 
 #header .nav .menu a:hover {
     opacity: 1.0;
-    border-bottom: 1px solid #b8c2c8;
+    background: #e1e2e7;
+    border-bottom: 1px solid #98a2a8;
 }
 
 #header .subnav .submenu a:hover {
@@ -212,6 +213,7 @@ button:hover {
     width: 18.75px; 
     height: 18.75px;
     margin-bottom: -3px;
+    filter: invert(1);
 }
 
 #header .nav .menu a.icon:hover {
@@ -232,6 +234,7 @@ button:hover {
     max-height: 18px;
     margin-right: 5px;
     vertical-align: middle;
+    filter: invert(1);
 }
 
 /* Footer */
@@ -374,16 +377,16 @@ a.sponsor-item img {
 }
 
 .event-content ul.links li a {
-    background: #f0f1f4;
+    background: #eee;
 }
 
 .event-content ul.links li a,
 .event-content ul.links li span,
 .more-link {
     margin: 0 2px 4px 0;
-    padding: 3px 5px 3px 5px;
-    border-radius: 3px;
-    border: 1px solid #dedfe7;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+    border-bottom: 1px solid #bbb;
     text-decoration: none;
 }
 
@@ -680,91 +683,4 @@ img.hero {
         width: 100%;
         height: auto;
     }
-}
-
-/* Color schemes */
-
-@media (prefers-color-scheme: dark) {
-
-    html, body {
-        background: #222;
-    }
-
-    code {
-        color: #b6c5ce;
-    }
-    
-    pre.highlight {
-        background: #222223;
-    }
-
-    blockquote {
-        border-color: #778;
-    }
-
-    #header .subnav {
-        background: #3a3e41; 
-    }
-
-    #content {
-        color: #dbddde;
-        border-color: #202322;
-        background: #27282b;
-    }
-
-    #content a {
-        color: #b3b7ba;
-    }
-
-    .section-content img {
-        opacity: 0.85;
-    }
-
-    .event-content {
-        border-color: #2e2f32;
-        background: #2e2f32;
-    }
-
-    .event-content hr {
-        background: #47474f;
-    }
-
-    .event-content ul.links li a {
-        background: #303134;
-    }
-
-    .event-content .speaker-image {
-        border-color: #27272f;
-    }
-
-    .event-content-upcoming {
-        border-color: #343538;
-        background: #333437;
-    }
-
-    .promo .promo-item img {
-        filter: brightness(0) invert(1);
-    }
-
-    .sponsors-content,
-    .sponsors-content .title {
-        border-color: #4e4f52;
-    }
-
-    .sponsors-content .title {
-        color: #a3a7a9;
-    }
-
-    a.sponsor-item img.light-background {
-        filter: brightness(0) invert(1) brightness(0.85);
-    }
-
-    #footer {
-        color: #fff;
-    }
-
-    #footer img {
-        filter: brightness(0) invert(1);
-    }
-
 }
