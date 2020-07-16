@@ -270,6 +270,11 @@ button:hover {
     color: #73777a;
 }
 
+#content a.section-anchor {
+    font-size: 20px;
+    color: #aaa;
+}
+
 /* Sections */
 
 .section {
