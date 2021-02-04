@@ -29,7 +29,10 @@
     <a name="{{ event.id }}" class="event-anchor"></a>
     
     <div class="event-content" date="{{ event.date | date: "%s" }}">
-        <h2><a href="{{ event.url }}" target="_blank">{{ event.title }}</a> <a href="#{{ event.id }}" class="section-anchor">#</a></h2>
+        <h2>
+            {% if event.url %}<a href="{{ event.url }}" target="_blank">{% endif %}{{ event.title }}{% if event.url %}</a>{% endif %}
+            <a href="#{{ event.id }}" class="section-anchor">#</a>
+        </h2>
         <div class="sidebar-container">
             <div class="left left-30">
                 <p>

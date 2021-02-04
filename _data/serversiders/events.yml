@@ -1,7 +1,6 @@
 - id: meetup-february-2019
   context: serversiders
   title: "Serversiders - February 2019"
-  url: https://www.meetup.com/serversiders/events/258492059/
   date: 2019-02-26T18:00:00+11
   description: >
     Welcome to the first ever Serversiders meetup, in association with Atlassian Engineering Nights! 
@@ -43,7 +42,6 @@
 - id: meetup-june-2019
   context: serversiders
   title: "Serversiders - June 2019"
-  url: https://www.meetup.com/serversiders/events/260491066/
   date: 2019-06-26T18:00:00+10
   description: >
     Last meetup in April got cancelled, so let's try this again. Same place, same theme and same 
@@ -81,7 +79,6 @@
 - id: meetup-august-2019
   context: serversiders
   title: "Serversiders - August 2019"
-  url: https://www.meetup.com/serversiders/events/263799179/
   date: 2019-08-29T18:00:00+10
   description: >
     Third instalment of our humble meetup. Two new talks at the same old venue provided by our generous 
@@ -117,7 +114,6 @@
 - id: meetup-october-2019
   context: serversiders
   title: "Serversiders - October 2019"
-  url: https://www.meetup.com/serversiders/events/265427940/
   date: 2019-10-30T18:00:00+11
   description: >
     Join us for the last meetup of the year, just before Halloween. Usual place, usual sponsors 
@@ -180,7 +176,6 @@
 - id: meetup-february-2020
   context: serversiders
   title: "Serversiders - February 2020"
-  url: https://www.meetup.com/serversiders/events/268770935/
   date: 2020-02-25T18:00:00+11
   description: >
     We're back for the first SYDspace meetup of the year. Usual Atlassian venue and a few good speakers.

@@ -51,20 +51,16 @@ submenus:
     path: /kotlin
     icon: /assets/images/kotlin.png
     links:
-      - title: Meetup.com
-        url: https://www.meetup.com/sydney-kotlin/
-      - title: Call for Speakers
-        url: https://goo.gl/forms/W5lMhsphk8OMqXVf2
+      - title: Eventbrite
+        url: https://sydney-kotlin.eventbrite.com/
 
   serversiders:
     title: Serversiders
     path: /serversiders
     icon: /assets/images/serversiders.png
     links:
-      - title: Meetup.com
-        url: https://www.meetup.com/serversiders/
-      - title: Call for Speakers
-        url: https://www.meetup.com/serversiders/discussions/4551126565388288/
+      - title: Eventbrite
+        url: https://serversiders.eventbrite.com/
 
   jvm:
     title: JVM Community
