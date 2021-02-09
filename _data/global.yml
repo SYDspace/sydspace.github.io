@@ -17,9 +17,6 @@ social:
     title: Twitter
     user: sydspace
     url: https://twitter.com/sydspace
-  slack:
-    title: Slack
-    url: /slack
 
 submenus:
   default:
