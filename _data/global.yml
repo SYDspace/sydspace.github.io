@@ -2,9 +2,6 @@ sections:
   - title: Events
     path: /events
 
-  - title: Projects
-    path: /projects
-
   - title: About
     path: /about
 
@@ -29,9 +26,6 @@ submenus:
         path: /jvm
       - title: Feedback
         url: https://goo.gl/forms/N51iWvShFMNW094e2
-
-  projects:
-    title: Projects
 
   events:
     title: Events
